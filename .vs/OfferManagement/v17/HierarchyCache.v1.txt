@@ -1,0 +1,1823 @@
+﻿++Solution 'OfferManagement' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:OfferManagement.sln
+++OfferManagement.BusinessModel.Flow
+i:{00000000-0000-0000-0000-000000000000}:OfferManagement.BusinessModel.Flow
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Properties
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\properties\
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\properties\
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\properties\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\
+++References
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Machines
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\machines\
+++Params
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\params\
+++Triggers
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\triggers\
+++AssemblyInfo.cs
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\properties\assemblyinfo.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\properties\assemblyinfo.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\properties\assemblyinfo.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\assemblyinfo.cs
+++Imis.Domain
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Imis.Domain.EF
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Microsoft.CSharp
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++OfferManagement.BusinessModel
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{00000000-0000-0000-0000-000000000000}:OfferManagement.BusinessModel
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++OfferManagement.Utils
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{00000000-0000-0000-0000-000000000000}:OfferManagement.Utils
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Stateless
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Core
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+++System.Data
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Data.DataSetExtensions
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Data.Entity
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Xml
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Xml.Linq
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++OfferStateMachine.cs
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\machines\offerstatemachine.cs
+++VerificationStateMachine.cs
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\machines\verificationstatemachine.cs
+++OfferTriggerParams.cs
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\params\offertriggerparams.cs
+++VerificationTriggerParams.cs
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\params\verificationtriggerparams.cs
+++enOfferTriggers.cs
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\triggers\enoffertriggers.cs
+++enVerificationTriggers.cs
+i:{d27a9bfb-cebf-4ee1-b513-df3ca3d3a70a}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel.flow\triggers\enverificationtriggers.cs
+++Auth
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\auth\
+++bin
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\bin\
+++Caching
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\caching\
+++Classes
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\
+++Entities
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\
+++Enums
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\
+++Extensions
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\extensions\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\extensions\
+++Interfaces
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\interfaces\
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\dispatchers\interfaces\
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\queue\interfaces\
+++obj
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\obj\
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\obj\
+++Queue
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\queue\
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\queue\
+++Repositories
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\
+++ApplicationRuleRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\applicationrulerepository.cs
+++BaseRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\baserepository.cs
+++EmailRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\emailrepository.cs
+++OfferRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\offerrepository.cs
+++PrefectureRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\prefecturerepository.cs
+++QueueEntryRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\queueentryrepository.cs
+++ReporterRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\reporterrepository.cs
+++RoleRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\rolerepository.cs
+++SmsRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\smsrepository.cs
+++StoreRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\storerepository.cs
+++TagRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\tagrepository.cs
+++TaskLastRunTimeRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\tasklastruntimerepository.cs
+++VerificationLogRepository.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\repositories\verificationlogrepository.cs
+++Resources
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\resources\
+++Search
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\search\
+++Services
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\services\
+++App.Config
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\app.config
+++Constants.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\constants.cs
+++DBEntities.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\dbentities.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\dbentities.cs
+++DBEntities.edmx
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\dbentities.edmx
+++DBEntities.tt
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\dbentities.tt
+++packages.config
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\packages.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\packages.config
+++DataSources
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\properties\datasources\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\datasources\
+++EntityFramework
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+++Imis.Web.Utils
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Newtonsoft.Json
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.ComponentModel.DataAnnotations
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+++System.configuration
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+++System.Drawing
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Numerics
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+++System.Runtime.Serialization
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Security
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+++System.ServiceModel
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Transactions
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Web
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Web.ApplicationServices
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Web.Extensions
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Windows.Forms
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:
+++AuthenticationService.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\auth\authenticationservice.cs
+++OfferManagementPrincipal.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\auth\offermanagementprincipal.cs
+++UserTicketData.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\auth\userticketdata.cs
+++Debug
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\obj\debug\
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\bin\debug\
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\obj\debug\
+++Ifestion
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\ifestion\
+++Release
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\release\
+++ArmyLaptopsCacheManager.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\caching\armylaptopscachemanager.cs
+++Configuration
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\configuration\
+++Factory
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\factory\
+++Helpers
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\helpers\
+++SearchFilters
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\searchfilters\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\searchfilters\
+++ChangeSet.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\changeset.cs
+++Config.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\config.cs
+++DOY.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\doy.cs
+++Extensions.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\extensions.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\extensions.cs
+++IdentificationDetails.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\identificationdetails.cs
+++MinimumSpecs.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\minimumspecs.cs
+++OfferChangeValues.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\offerchangevalues.cs
+++OfferDetails.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\offerdetails.cs
+++PropertyAccessor.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\propertyaccessor.cs
+++PropertyChange.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\propertychange.cs
+++Serializer.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\serializer.cs
+++TagManager.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\tagmanager.cs
+++ApplicationRule.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\applicationrule.cs
+++Email.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\email.cs
+++Offer.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\offer.cs
+++OfferLog.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\offerlog.cs
+++QueueEntry.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\queueentry.cs
+++Reporter.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\reporter.cs
+++SMS.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\sms.cs
+++Store.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\store.cs
+++Tag.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\tag.cs
+++VerificationLog.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\entities\verificationlog.cs
+++enCompanyType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\encompanytype.cs
+++enDeliveryStatus.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\endeliverystatus.cs
+++enEmailEntityType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enemailentitytype.cs
+++enEmailType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enemailtype.cs
+++enIBANValidationResult.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enibanvalidationresult.cs
+++enIdentificationType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enidentificationtype.cs
+++enLaptopColor.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enlaptopcolor.cs
+++enOfferStatus.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enofferstatus.cs
+++enQueueEntryPriority.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enqueueentrypriority.cs
+++enQueueEntryStatus.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enqueueentrystatus.cs
+++enQueueEntryType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enqueueentrytype.cs
+++enReporterDeclarationType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enreporterdeclarationtype.cs
+++enReporterType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enreportertype.cs
+++enSMSStatus.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\ensmsstatus.cs
+++enSMSType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\ensmstype.cs
+++enTagType.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\entagtype.cs
+++EnumExtensions.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enumextensions.cs
+++enVerificationStatus.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\enums\enverificationstatus.cs
+++XmlSerializer.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\extensions\xmlserializer.cs
+++IDeliverableItem.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\interfaces\ideliverableitem.cs
+++ITrackable.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\interfaces\itrackable.cs
+++IUserChangeTracking.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\interfaces\iuserchangetracking.cs
+++EmailQueueWorker.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\queue\emailqueueworker.cs
+++QueueData.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\queue\queuedata.cs
+++QueueEntrySettings.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\queue\queueentrysettings.cs
+++QueueWorkerBase.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\queue\queueworkerbase.cs
+++SmsQueueWorker.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\queue\smsqueueworker.cs
+++DOYs.xml
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\resources\doys.xml
+++Labels.resx
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\resources\labels.resx
+++Criteria.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\search\criteria.cs
+++CriteriaField.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\search\criteriafield.cs
+++ApplicationRuleService.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\services\applicationruleservice.cs
+++MinimumSpecsService.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\services\minimumspecsservice.cs
+++DBEntities.Designer.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\dbentities.designer.cs
+++DBEntities1.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\dbentities1.cs
+++HelpDeskEntities.datasource
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\properties\datasources\helpdeskentities.datasource
+++EntityFramework.dll
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\entityframework.dll
+++EntityFramework.xml
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\entityframework.xml
+++Imis.Domain.dll
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\imis.domain.dll
+++Imis.Domain.EF.dll
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\imis.domain.ef.dll
+++Imis.Web.Utils.dll
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\imis.web.utils.dll
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\bin\debug\imis.web.utils.dll
+++log4net.dll
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\log4net.dll
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\bin\debug\log4net.dll
+++Newtonsoft.Json.dll
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\newtonsoft.json.dll
+++OfferManagement.BusinessModel.dll
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\offermanagement.businessmodel.dll
+++OfferManagement.BusinessModel.dll.config
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\offermanagement.businessmodel.dll.config
+++OfferManagement.BusinessModel.pdb
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\offermanagement.businessmodel.pdb
+++OfferManagement.Utils.dll
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\offermanagement.utils.dll
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\bin\debug\offermanagement.utils.dll
+++OfferManagement.Utils.pdb
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\bin\debug\offermanagement.utils.pdb
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\bin\debug\offermanagement.utils.pdb
+++CachingConfiguration.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\configuration\cachingconfiguration.cs
+++EmailFactory.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\factory\emailfactory.cs
+++SMSFactory.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\factory\smsfactory.cs
+++UnitOfWorkFactory.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\factory\unitofworkfactory.cs
+++BusinessHelper.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\helpers\businesshelper.cs
+++CodeGenerationHelper.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\helpers\codegenerationhelper.cs
+++OfferHelper.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\helpers\offerhelper.cs
+++RequestHelper.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\helpers\requesthelper.cs
+++ValidationHelper.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\helpers\validationhelper.cs
+++BaseSearchFilters.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\searchfilters\basesearchfilters.cs
+++OfferSearchFilters.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\classes\searchfilters\offersearchfilters.cs
+++.NETFramework,Version=v4.8.AssemblyAttributes.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\obj\debug\.netframework,version=v4.8.assemblyattributes.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\obj\debug\.netframework,version=v4.8.assemblyattributes.cs
+++Labels.Designer.cs
+i:{82248bab-c2c1-4e3a-9713-3220a27258df}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.businessmodel\resources\labels.designer.cs
+++Dispatchers
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\dispatchers\
+++Worker
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\worker\
+++LogHelper.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\loghelper.cs
+++log4net
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DispatcherFactory.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\dispatchers\dispatcherfactory.cs
+++EmailDispatcher.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\dispatchers\emaildispatcher.cs
+++LototelSmsDispatcher.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\dispatchers\lototelsmsdispatcher.cs
+++VodafoneSmsDispatcher.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\dispatchers\vodafonesmsdispatcher.cs
+++QueueConfiguration.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\queue\queueconfiguration.cs
+++QueueRetryData.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\queue\queueretrydata.cs
+++ServiceQueue.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\queue\servicequeue.cs
+++AsyncWorker.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\worker\asyncworker.cs
+++AsyncWorkerItem.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\worker\asyncworkeritem.cs
+++enWorkerItemMonitorState.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\worker\enworkeritemmonitorstate.cs
+++WorkerConfiguration.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\worker\workerconfiguration.cs
+++WorkerItemMonitor.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\worker\workeritemmonitor.cs
+++IEmailDispatcher.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\dispatchers\interfaces\iemaildispatcher.cs
+++ISmsDispatcher.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\dispatchers\interfaces\ismsdispatcher.cs
+++IQueueEntry.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\queue\interfaces\iqueueentry.cs
+++IQueueWorker.cs
+i:{c7b79885-ace3-4574-ac38-aa689981ef15}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.utils\queue\interfaces\iqueueworker.cs
+++OfferManagement.Portal
+i:{00000000-0000-0000-0000-000000000000}:OfferManagement.Portal
+++Service References
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\service references\
+++_css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\
+++_img
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\
+++_js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\
+++_rdlc
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_rdlc\
+++Admin
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\
+++Admin.Master
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\admin.master
+++admin.sitemap
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\admin.sitemap
+++ColorExplanation.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\colorexplanation.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\colorexplanation.aspx
+++Default.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\default.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\default.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\default.aspx
+++LoginAsUser.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\loginasuser.aspx
+++Offers.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\offers.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offers.aspx
+++Web.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\web.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\web.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\web.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\web.config
+++App_Data
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_data\
+++App_GlobalResources
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\
+++App_Themes
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\
+++Common
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\
+++Controls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\
+++PortalServices
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\portalservices\
+++Secure
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\
+++Uploads
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\uploads\
+++UserControls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\
+++Utils
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\
+++EmailVerificationInfo.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\emailverificationinfo.aspx
+++favicon.ico
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\favicon.ico
+++Global.asax
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\global.asax
+++PopUp.Master
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\popup.master
+++Portal.Master
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\portal.master
+++Web.ConnectionStrings.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\web.connectionstrings.config
+++PublishProfiles
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\publishprofiles\
+++Settings.settings
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\settings.settings
+++BotDetect
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Data.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Office.v14.2.Core
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Printing.v14.2.Core
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.RichEdit.v14.2.Core
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.SpellChecker.v14.2.Core
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Utils.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Web.ASPxHtmlEditor.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Web.ASPxRichEdit.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Web.ASPxSpellChecker.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Web.ASPxThemes.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Web.ASPxTreeList.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.Web.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++DevExpress.XtraPrinting.v14.2
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Imis.Web.Controls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Microsoft.Owin
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Microsoft.Owin.Host.SystemWeb
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Microsoft.Owin.Security
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Microsoft.ReportViewer.WebForms
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Microsoft.Web.Infrastructure
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++Owin
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Configuration
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.EnterpriseServices
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.ServiceModel.Activation
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.ServiceModel.Web
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Web.DataVisualization
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Web.DynamicData
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Web.Entity
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Web.Mobile
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++System.Web.Services
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++WebFormsMvp
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++WebFormsMvp.Autofac
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:
+++images
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\
+++jquery-ui
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\
+++PortalStyles
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\portalstyles\
+++application-steps.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\application-steps.css
+++backOffice.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\backoffice.css
+++browse.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\browse.css
+++jquery-ui.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui.css
+++jquery.tagit.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery.tagit.css
+++jquery.tipsy.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery.tipsy.css
+++OfferManagementMain.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\offermanagementmain.css
+++OfferManagementPopup.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\offermanagementpopup.css
+++OfferManagementReset.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\offermanagementreset.css
+++offerSteps.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\offersteps.css
+++publicKnockoutLists.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\publicknockoutlists.css
+++0.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\0.png
+++arrow_16x16-32.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\arrow_16x16-32.png
+++arrow_return_16x16-32.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\arrow_return_16x16-32.png
+++background.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\background.png
+++bc_bg.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\bc_bg.png
+++bc_separator.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\bc_separator.png
+++button-left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\button-left.png
+++button-right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\button-right.png
+++button.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\button.png
+++button_glas1.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\button_glas1.png
+++checkbox.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\checkbox.png
+++close.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\close.png
+++contrast_low.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\contrast_low.png
+++corner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\corner.png
+++double-arrow.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\double-arrow.png
+++double-arrow_return.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\double-arrow_return.png
+++dxError.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\dxerror.png
+++error.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\error.gif
+++green_light.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\green_light.png
+++help.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\help.png
+++home.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\home.png
+++iconAccept.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconaccept.png
+++iconAcceptAll.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconacceptall.png
+++iconAdd.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconadd.png
+++iconAddNewItem.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconaddnewitem.png
+++iconApproveApplication.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconapproveapplication.png
+++iconArrowDown.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconarrowdown.png
+++iconArrowUp.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconarrowup.png
+++iconBack.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconback.png
+++iconCalendar.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconcalendar.png
+++iconCancel.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconcancel.png
+++iconCellphone.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconcellphone.png
+++iconClone.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconclone.png
+++iconCollapse.jpg
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconcollapse.jpg
+++iconColourExplanation.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconcolourexplanation.png
+++iconComment.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconcomment.png
+++iconDelete.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\icondelete.png
+++iconDeleteCellphone.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\icondeletecellphone.png
+++iconEdit.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconedit.png
+++iconEmail.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconemail.png
+++iconEmailEdit.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconemailedit.png
+++iconEmailSend.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconemailsend.png
+++iconEndVisit.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconendvisit.png
+++iconExcel.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconexcel.png
+++iconExpand.jpg
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconexpand.jpg
+++iconHelp.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconhelp.png
+++iconHistory.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconhistory.png
+++iconIndicator.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconindicator.gif
+++iconInfo.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconinfo.png
+++iconInformation.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconinformation.png
+++iconLock.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconlock.png
+++iconLogout.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconlogout.png
+++iconMap.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconmap.png
+++iconMaximize.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconmaximize.png
+++iconMinimize.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconminimize.png
+++iconMoney.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconmoney.png
+++iconNext.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconnext.png
+++iconNo.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconno.png
+++iconPageAttach.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconpageattach.png
+++iconPageDelete.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconpagedelete.png
+++iconPasswordEdit.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconpasswordedit.png
+++iconPdf.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconpdf.gif
+++iconPencilAdd.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconpenciladd.png
+++iconPending.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconpending.png
+++iconPendingVisit.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconpendingvisit.png
+++iconPrevious.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconprevious.png
+++iconPrint.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconprint.png
+++iconReject.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconreject.png
+++iconRejectApplication.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconrejectapplication.png
+++iconRemoveSchool.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconremoveschool.png
+++iconReorder.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconreorder.gif
+++iconReportEdit.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconreportedit.png
+++iconReturn.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconreturn.png
+++iconSave.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconsave.png
+++iconSaveComment.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconsavecomment.png
+++iconSearch.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconsearch.png
+++iconSelectSchool.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconselectschool.png
+++iconStartVisit.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconstartvisit.png
+++iconUndo.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconundo.png
+++iconUnlock.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconunlock.png
+++iconUpload.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconupload.png
+++iconUserComment.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconusercomment.png
+++iconUserEdit.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconuseredit.png
+++iconUsers.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconusers.png
+++iconView.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconview.png
+++iconView2.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconview2.png
+++iconViewDetails.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconviewdetails.png
+++iconWorld.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconworld.png
+++iconYes.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\iconyes.png
+++Imis.ImageManager.xap
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\imis.imagemanager.xap
+++info.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\info.png
+++information.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\information.png
+++input-left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\input-left.png
+++input-right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\input-right.png
+++input.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\input.png
+++Jcrop.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\jcrop.gif
+++loading.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\loading.gif
+++login-big.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login-big.png
+++login.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login.png
+++login_cell1_bottom_left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell1_bottom_left.png
+++login_cell1_bottom_right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell1_bottom_right.png
+++login_cell1_top_left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell1_top_left.png
+++login_cell1_top_right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell1_top_right.png
+++login_cell2_bottom_left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell2_bottom_left.png
+++login_cell2_bottom_right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell2_bottom_right.png
+++login_cell2_top_left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell2_top_left.png
+++login_cell2_top_right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell2_top_right.png
+++login_cell3_bottom_left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell3_bottom_left.png
+++login_cell3_bottom_right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell3_bottom_right.png
+++login_cell3_top_left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell3_top_left.png
+++login_cell3_top_right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\login_cell3_top_right.png
+++navBtn.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\navbtn.gif
+++navCurrentBtn.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\navcurrentbtn.gif
+++navDoneBtn.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\navdonebtn.gif
+++navLastDoneBtn.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\navlastdonebtn.gif
+++phone.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\phone.png
+++progress.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\progress.gif
+++radio.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\radio.png
+++red_light.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\red_light.png
+++register-big.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\register-big.png
+++Register.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\register.png
+++s.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\s.gif
+++select-left.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\select-left.png
+++select-right.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\select-right.png
+++square-gray-left.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\square-gray-left.gif
+++square-gray-right.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\square-gray-right.gif
+++textarea-bl.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\textarea-bl.png
+++textarea-br.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\textarea-br.png
+++textarea-l-off.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\textarea-l-off.png
+++textarea-l-over.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\textarea-l-over.png
+++textarea-r-off.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\textarea-r-off.png
+++textarea-r-over.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\textarea-r-over.png
+++textarea-tl.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\textarea-tl.png
+++textarea-tr.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\textarea-tr.png
+++TriStateCheckBoxBG.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\tristatecheckboxbg.gif
+++TriStateCheckBoxBG_ReadOnly.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\tristatecheckboxbg_readonly.gif
+++ui-bg_diagonals-thick_18_b81900_40x40.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_diagonals-thick_18_b81900_40x40.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_diagonals-thick_18_b81900_40x40.png
+++ui-bg_diagonals-thick_20_666666_40x40.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_diagonals-thick_20_666666_40x40.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_diagonals-thick_20_666666_40x40.png
+++ui-bg_flat_0_aaaaaa_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_flat_0_aaaaaa_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-bg_flat_0_aaaaaa_40x100.png
+++ui-bg_flat_10_000000_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_flat_10_000000_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_flat_10_000000_40x100.png
+++ui-bg_flat_75_ffffff_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_flat_75_ffffff_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_flat_75_ffffff_40x100.png
+++ui-bg_glass_100_f6f6f6_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_glass_100_f6f6f6_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_glass_100_f6f6f6_1x400.png
+++ui-bg_glass_100_fdf5ce_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_glass_100_fdf5ce_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_glass_100_fdf5ce_1x400.png
+++ui-bg_glass_55_fbf9ee_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_glass_55_fbf9ee_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_glass_55_fbf9ee_1x400.png
+++ui-bg_glass_65_ffffff_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_glass_65_ffffff_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_glass_65_ffffff_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_glass_65_ffffff_1x400.png
+++ui-bg_glass_75_5d7b9d_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_glass_75_5d7b9d_1x400.png
+++ui-bg_glass_75_dadada_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_glass_75_dadada_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_glass_75_dadada_1x400.png
+++ui-bg_glass_75_e6e6e6_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_glass_75_e6e6e6_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_glass_75_e6e6e6_1x400.png
+++ui-bg_gloss-wave_35_f6a828_500x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_gloss-wave_35_f6a828_500x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_gloss-wave_35_f6a828_500x100.png
+++ui-bg_highlight-soft_100_eeeeee_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_highlight-soft_100_eeeeee_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_highlight-soft_100_eeeeee_1x100.png
+++ui-bg_highlight-soft_75_ffe45c_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_highlight-soft_75_ffe45c_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-bg_highlight-soft_75_ffe45c_1x100.png
+++ui-bg_inset-soft_95_fef1ec_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-bg_inset-soft_95_fef1ec_1x100.png
+++ui-icons_222222_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_222222_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-icons_222222_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_222222_256x240.png
+++ui-icons_228ef1_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_228ef1_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-icons_228ef1_256x240.png
+++ui-icons_2e83ff_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_2e83ff_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_2e83ff_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-icons_2e83ff_256x240.png
+++ui-icons_454545_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_454545_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_454545_256x240.png
+++ui-icons_888888_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_888888_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_888888_256x240.png
+++ui-icons_cd0a0a_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_cd0a0a_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_cd0a0a_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-icons_cd0a0a_256x240.png
+++ui-icons_ef8c08_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_ef8c08_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-icons_ef8c08_256x240.png
+++ui-icons_ffd27a_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_ffd27a_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-icons_ffd27a_256x240.png
+++ui-icons_ffffff_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\ui-icons_ffffff_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\images\ui-icons_ffffff_256x240.png
+++valid-xhtml10-blue.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\valid-xhtml10-blue.png
+++viewport_background.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\viewport_background.gif
+++warning.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\warning.png
+++watermark.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\watermark.png
+++wcag2AA-blue.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\wcag2aa-blue.png
+++wz-filereport.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\wz-filereport.png
+++yellow_light.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\yellow_light.png
+++zoom_in.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\zoom_in.png
+++zoom_out.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_img\zoom_out.png
+++Imis
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\imis\
+++Views
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\views\
+++CollapsibleBoxes.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\collapsibleboxes.js
+++DropDownHelper.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\dropdownhelper.js
+++Imis.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\imis.js
+++Init.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\init.js
+++jquery-2.0.3.min.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\jquery-2.0.3.min.js
+++jquery-tag-it.min.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\jquery-tag-it.min.js
+++jquery-ui-1.10.1.custom.min.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\jquery-ui-1.10.1.custom.min.js
+++jquery.appender.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\jquery.appender.js
+++jquery.li-scroller.1.0.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\jquery.li-scroller.1.0.js
+++jquery.printElement.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\jquery.printelement.js
+++jquery.tipsy.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\jquery.tipsy.js
+++knockout-3.0.0.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\knockout-3.0.0.js
+++markerclusterer.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\markerclusterer.js
+++popUp.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\popup.js
+++Terms.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\terms.js
+++StoreCertification.rdlc
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_rdlc\storecertification.rdlc
+++Admin.Master.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\admin.master.cs
+++Admin.Master.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\admin.master.designer.cs
+++ColorExplanation.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\colorexplanation.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\colorexplanation.aspx.cs
+++ColorExplanation.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\colorexplanation.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\colorexplanation.aspx.designer.cs
+++Default.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\default.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\default.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\default.aspx.cs
+++Default.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\default.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\default.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\default.aspx.designer.cs
+++LoginAsUser.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\loginasuser.aspx.cs
+++LoginAsUser.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\loginasuser.aspx.designer.cs
+++Offers.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\offers.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offers.aspx.cs
+++Offers.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\admin\offers.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offers.aspx.designer.cs
+++Mails.xml
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_data\mails.xml
+++MinimumSpecs.xml
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_data\minimumspecs.xml
+++SMSs.xml
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_data\smss.xml
+++ActivateUser.resx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\activateuser.resx
+++AppMessages.resx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\appmessages.resx
+++ContactPersonInput.resx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\contactpersoninput.resx
+++OfferInput.resx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\offerinput.resx
+++OrderInput.resx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\orderinput.resx
+++RegistrationInput.resx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\registrationinput.resx
+++StoreInput.resx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\storeinput.resx
+++StoreUserInput.resx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\storeuserinput.resx
+++Aqua
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\
+++BlackGlass
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\
+++Default
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\default\
+++Soft Orange
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\
+++AccessDenied.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\accessdenied.aspx
+++AlterPassword.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\alterpassword.aspx
+++ChangePassword.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\changepassword.aspx
+++Common.Master
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\common.master
+++ForgotPassword.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\forgotpassword.aspx
+++GeneralError.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\generalerror.aspx
+++PageNotFound.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\pagenotfound.aspx
+++StoreRegistration.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\storeregistration.aspx
+++VerifyEmail.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\verifyemail.aspx
+++ViewOffer.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\viewoffer.aspx
+++ScriptControls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\
+++BaseEntityUserControl.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\baseentityusercontrol.cs
+++BaseGridViewUserControl.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\basegridviewusercontrol.cs
+++BaseHttpHandler.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\basehttphandler.cs
+++BasePortalPage.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\baseportalpage.cs
+++BaseScriptControl.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\basescriptcontrol.cs
+++BaseSearchFiltersControl.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\basesearchfilterscontrol.cs
+++BaseUserControl.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\baseusercontrol.cs
+++BotShield.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\botshield.cs
+++BaseDataSource.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\datasources\basedatasource.cs
+++OfferLogs.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\datasources\offerlogs.cs
+++Offers.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\datasources\offers.cs
+++Prefectures.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\datasources\prefectures.cs
+++Stores.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\datasources\stores.cs
+++Users.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\datasources\users.cs
+++VerificationLogs.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\datasources\verificationlogs.cs
+++Services.asmx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\portalservices\services.asmx
+++Stores
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\
+++RefreshRoles.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\refreshroles.aspx
+++GenericControls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\
+++GridViews
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\gridviews\
+++OfferControls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\
+++Popups
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\popups\
+++StoreControls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\storecontrols\
+++CacheManager.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\cachemanager.cs
+++EntityAccessManager.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\entityaccessmanager.cs
+++OfferDetailsHelper.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\offerdetailshelper.cs
+++OfferManagementRoleProvider.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\offermanagementroleprovider.cs
+++PortalHelper.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\portalhelper.cs
+++UIHelper.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\uihelper.cs
+++WebConfigEncryption.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\webconfigencryption.cs
+++EmailVerificationInfo.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\emailverificationinfo.aspx.cs
+++EmailVerificationInfo.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\emailverificationinfo.aspx.designer.cs
+++Global.asax.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\global.asax.cs
+++PopUp.Master.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\popup.master.cs
+++PopUp.Master.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\popup.master.designer.cs
+++Portal.Master.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\portal.master.cs
+++Portal.Master.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\portal.master.designer.cs
+++Web.Debug.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\web.debug.config
+++Web.Ifestion.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\web.ifestion.config
+++Web.Release.config
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\web.release.config
+++LocalSystem.pubxml
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\publishprofiles\localsystem.pubxml
+++Profile1.pubxml
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\publishprofiles\profile1.pubxml
+++Web Deploy.pubxml
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\publishprofiles\web deploy.pubxml
+++WinPlatform.pubxml
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\publishprofiles\winplatform.pubxml
+++Settings.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\properties\settings.designer.cs
+++redmond
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\
+++high-contrast.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\portalstyles\high-contrast.css
+++low-contrast.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\portalstyles\low-contrast.css
+++reset-min.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\portalstyles\reset-min.css
+++style_portal.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\portalstyles\style_portal.css
+++thickbox1.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\portalstyles\thickbox1.css
+++ASPxScriptIntelliSense.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\imis\aspxscriptintellisense.js
+++DxExtensions.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\imis\dxextensions.js
+++Imis.Lib.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\imis\imis.lib.js
+++MessageBox.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\imis\messagebox.js
+++Admin.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\views\admin.js
+++Popup.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\views\popup.js
+++Registration.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\views\registration.js
+++Stores.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\views\stores.js
+++UserContactDetails.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_js\views\usercontactdetails.js
+++ActivateUser.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\activateuser.designer.cs
+++AppMessages.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\appmessages.designer.cs
+++ContactPersonInput.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\contactpersoninput.designer.cs
+++OfferInput.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\offerinput.designer.cs
+++OrderInput.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\orderinput.designer.cs
+++RegistrationInput.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\registrationinput.designer.cs
+++StoreInput.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\storeinput.designer.cs
+++StoreUserInput.Designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_globalresources\storeuserinput.designer.cs
+++Web
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\
+++Default.skin
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\default\default.skin
+++AccessDenied.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\accessdenied.aspx.cs
+++AccessDenied.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\accessdenied.aspx.designer.cs
+++AlterPassword.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\alterpassword.aspx.cs
+++AlterPassword.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\alterpassword.aspx.designer.cs
+++ChangePassword.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\changepassword.aspx.cs
+++ChangePassword.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\changepassword.aspx.designer.cs
+++Common.Master.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\common.master.cs
+++Common.Master.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\common.master.designer.cs
+++ForgotPassword.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\forgotpassword.aspx.cs
+++ForgotPassword.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\forgotpassword.aspx.designer.cs
+++GeneralError.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\generalerror.aspx.cs
+++GeneralError.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\generalerror.aspx.designer.cs
+++PageNotFound.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\pagenotfound.aspx.cs
+++PageNotFound.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\pagenotfound.aspx.designer.cs
+++StoreRegistration.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\storeregistration.aspx.cs
+++StoreRegistration.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\storeregistration.aspx.designer.cs
+++VerifyEmail.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\verifyemail.aspx.cs
+++VerifyEmail.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\verifyemail.aspx.designer.cs
+++ViewOffer.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\viewoffer.aspx.cs
+++ViewOffer.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\common\viewoffer.aspx.designer.cs
+++MemoEdit.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\memoedit.ascx
+++MemoEdit.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\memoedit.js
+++MultiSelectCombo.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\multiselectcombo.ascx
+++MultiSelectCombo.js
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\multiselectcombo.js
+++Services.asmx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\portalservices\services.asmx.cs
+++AccountDetails.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\accountdetails.aspx
+++GenerateStoreCertificationPDF.ashx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\generatestorecertificationpdf.ashx
+++OfferDetails.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offerdetails.aspx
+++OfferPreview.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offerpreview.aspx
+++StoreDetails.aspx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\storedetails.aspx
+++Stores.Master
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\stores.master
+++Stores.sitemap
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\stores.sitemap
+++EmailVerificationInfo.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\emailverificationinfo.ascx
+++LoginBar.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\loginbar.ascx
+++MobilePhoneVerification.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\mobilephoneverification.ascx
+++RefreshRoles.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\refreshroles.aspx.cs
+++RefreshRoles.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\refreshroles.aspx.designer.cs
+++AutoCompleteInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\autocompleteinput.ascx
+++ChangePassword.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\changepassword.ascx
+++ContactPersonInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\contactpersoninput.ascx
+++DateRangeInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\daterangeinput.ascx
+++GreekAddressInfoInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\greekaddressinfoinput.ascx
+++HyperLinkInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\hyperlinkinput.ascx
+++NumberRangeInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\numberrangeinput.ascx
+++ParticipationTerms.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\participationterms.ascx
+++RegisterUserInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\registeruserinput.ascx
+++TipIcon.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\tipicon.ascx
+++UserAccountDetails.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\useraccountdetails.ascx
+++OffersGridView.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\gridviews\offersgridview.ascx
+++InputControls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\inputcontrols\
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\storecontrols\inputcontrols\
+++ViewControls
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\
+++HintPopup.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\popups\hintpopup.ascx
+++OfferSearchFiltersControl.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\searchfilters\offersearchfilterscontrol.ascx
+++ControlExtensions.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\extensions\controlextensions.cs
+++GridViewExporterExtensions.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\extensions\gridviewexporterextensions.cs
+++GridViewExtensions.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\utils\extensions\gridviewextensions.cs
+++back
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\
+++jquery-ui-1.10.1.custom.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\jquery-ui-1.10.1.custom.css
+++jquery-ui-1.10.1.custom.min.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\jquery-ui-1.10.1.custom.min.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\jquery-ui-1.10.1.custom.min.css
+++dxpcFooterBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\dxpcfooterback.gif
+++Loading.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\loading.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\loading.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\loading.gif
+++mBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mback.gif
+++mGutterRightBorder.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mgutterrightborder.gif
+++mHorizontalPopOut.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mhorizontalpopout.gif
+++mHorizontalPopOut.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mhorizontalpopout.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\mhorizontalpopout.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\mhorizontalpopout.png
+++mHorizontalPopOutH.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mhorizontalpopouth.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\mhorizontalpopouth.png
+++mItemBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mitemback.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\mitemback.gif
+++mItemHBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mitemhback.gif
+++mItemSBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mitemsback.gif
+++mSeparator.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mseparator.gif
+++mSubMenuItem.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\msubmenuitem.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\msubmenuitem.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\msubmenuitem.gif
+++mSubMenuItemChecked.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\msubmenuitemchecked.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\msubmenuitemchecked.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\msubmenuitemchecked.gif
+++mVertBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mvertback.gif
+++mVertHBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mverthback.gif
+++mVerticalPopOut.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mverticalpopout.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\mverticalpopout.gif
+++mVerticalPopOut.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mverticalpopout.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\mverticalpopout.png
+++mVerticalSeparator.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mverticalseparator.gif
+++mVertSBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\mvertsback.gif
+++nbCollapse.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\nbcollapse.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\nbcollapse.png
+++nbExpand.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\nbexpand.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\nbexpand.png
+++nbGroupHeaderBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\nbgroupheaderback.gif
+++nbLoading.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\nbloading.gif
+++pAll.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pall.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pall.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pall.png
+++pAllDisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\palldisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\palldisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\palldisabled.png
+++pcCloseButton.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pcclosebutton.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pcclosebutton.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pcclosebutton.png
+++pcHeaderBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pcheaderback.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pcheaderback.gif
+++pcModalBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pcmodalback.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pcmodalback.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pcmodalback.gif
+++pcSizeGrip.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pcsizegrip.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pcsizegrip.png
+++pFirst.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pfirst.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pfirst.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pfirst.png
+++pFirstDisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pfirstdisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pfirstdisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pfirstdisabled.png
+++pLast.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\plast.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\plast.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\plast.png
+++pLastDisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\plastdisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\plastdisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\plastdisabled.png
+++pNext.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pnext.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pnext.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pnext.png
+++pNextDisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pnextdisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pnextdisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pnextdisabled.png
+++pPrev.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pprev.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pprev.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pprev.png
+++pPrevDisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\pprevdisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pprevdisabled.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pprevdisabled.png
+++rpBottomEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rpbottomedge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpbottomedge.gif
+++rpBottomLeft.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rpbottomleft.png
+++rpBottomRight.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rpbottomright.png
+++rpLeftEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rpleftedge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpleftedge.gif
+++rpNoHeaderTopEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rpnoheadertopedge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpnoheadertopedge.gif
+++rpNoHeaderTopLeft.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rpnoheadertopleft.png
+++rpNoHeaderTopRight.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rpnoheadertopright.png
+++rpRightEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rprightedge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rprightedge.gif
+++rpTopLeft.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rptopleft.png
+++rpTopRight.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\rptopright.png
+++smLevelBullet.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\smlevelbullet.gif
+++styles.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\styles.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\styles.css
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\styles.css
+++tcTabBottomBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tctabbottomback.gif
+++tcTabBottomHottrackedBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tctabbottomhottrackedback.gif
+++tcTabLeftBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tctableftback.gif
+++tcTabLeftHottrackedBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tctablefthottrackedback.gif
+++tcTabRightBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tctabrightback.gif
+++tcTabRightHottrackedBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tctabrighthottrackedback.gif
+++tcTabTopBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tctabtopback.gif
+++tcTabTopHottrackedBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tctabtophottrackedback.gif
+++tiGoToTop.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\aqua\web\tigototop.png
+++mItemBackH.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\mitembackh.gif
+++mItemBackLevel0.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\mitembacklevel0.gif
+++mItemBackS.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\mitembacks.gif
+++mVerticalItemBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\mverticalitemback.gif
+++nbCollapse.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\nbcollapse.gif
+++nbExpand.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\nbexpand.gif
+++nbItemBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\nbitemback.gif
+++nbItemBackH.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\nbitembackh.gif
+++pcItemCloseButton.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pcitemclosebutton.gif
+++pcItemFooter.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pcitemfooter.gif
+++pcItemHeader.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pcitemheader.gif
+++pcSizeGrip.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pcsizegrip.gif
+++pcTabBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pctabback.gif
+++pcTabBackH.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\pctabbackh.gif
+++rpBottomLeftCorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpbottomleftcorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpbottomleftcorner.png
+++rpBottomRightCorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpbottomrightcorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpbottomrightcorner.png
+++rpContentBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpcontentback.gif
+++rpContentBottomEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpcontentbottomedge.gif
+++rpContentLeftEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpcontentleftedge.gif
+++rpContentRightEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpcontentrightedge.gif
+++rpHeaderBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpheaderback.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpheaderback.gif
+++rpHeaderLeftEdge.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpheaderleftedge.png
+++rpHeaderRightEdge.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpheaderrightedge.png
+++rpNoHeaderTopLeftCorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpnoheadertopleftcorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpnoheadertopleftcorner.png
+++rpNoHeaderTopRightCorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rpnoheadertoprightcorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpnoheadertoprightcorner.png
+++rpTopEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rptopedge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rptopedge.gif
+++rpTopLeftCorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rptopleftcorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rptopleftcorner.png
+++rpTopRightCorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\rptoprightcorner.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rptoprightcorner.png
+++smBullet.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\smbullet.png
+++tcTabBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\tctabback.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\tctabback.gif
+++tcTabBackH.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\tctabbackh.gif
+++tiItemBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\blackglass\web\tiitemback.gif
+++dvPagerPanelBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\dvpagerpanelback.gif
+++mItemBack.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\mitemback.png
+++mItemBackH.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\mitembackh.png
+++mItemChecked.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\mitemchecked.gif
+++mSeparatorBack.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\mseparatorback.png
+++mVSeparatorBack.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\mvseparatorback.png
+++nbHeaderBack.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\nbheaderback.png
+++nbHeaderHBack.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\nbheaderhback.png
+++pcFooterBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\pcfooterback.gif
+++rpHeaderLeftEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpheaderleftedge.gif
+++rpHeaderRightEdge.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\rpheaderrightedge.gif
+++tcATabBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\tcatabback.gif
+++tcATabBottomBack.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\tcatabbottomback.gif
+++tiBackToTop.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\app_themes\soft orange\web\tibacktotop.png
+++MemoEdit.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\memoedit.ascx.cs
+++MemoEdit.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\memoedit.ascx.designer.cs
+++MultiSelectCombo.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\multiselectcombo.ascx.cs
+++MultiSelectCombo.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\controls\scriptcontrols\multiselectcombo.ascx.designer.cs
+++AccountDetails.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\accountdetails.aspx.cs
+++AccountDetails.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\accountdetails.aspx.designer.cs
+++GenerateStoreCertificationPDF.ashx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\generatestorecertificationpdf.ashx.cs
+++OfferDetails.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offerdetails.aspx.cs
+++OfferDetails.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offerdetails.aspx.designer.cs
+++OfferPreview.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offerpreview.aspx.cs
+++OfferPreview.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\offerpreview.aspx.designer.cs
+++StoreDetails.aspx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\storedetails.aspx.cs
+++StoreDetails.aspx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\storedetails.aspx.designer.cs
+++Stores.Master.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\stores.master.cs
+++Stores.Master.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\stores\stores.master.designer.cs
+++EmailVerificationInfo.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\emailverificationinfo.ascx.cs
+++EmailVerificationInfo.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\emailverificationinfo.ascx.designer.cs
+++LoginBar.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\loginbar.ascx.cs
+++LoginBar.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\loginbar.ascx.designer.cs
+++MobilePhoneVerification.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\mobilephoneverification.ascx.cs
+++MobilePhoneVerification.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\secure\usercontrols\mobilephoneverification.ascx.designer.cs
+++AutoCompleteInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\autocompleteinput.ascx.cs
+++AutoCompleteInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\autocompleteinput.ascx.designer.cs
+++ChangePassword.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\changepassword.ascx.cs
+++ChangePassword.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\changepassword.ascx.designer.cs
+++ContactPersonInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\contactpersoninput.ascx.cs
+++ContactPersonInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\contactpersoninput.ascx.designer.cs
+++DateRangeInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\daterangeinput.ascx.cs
+++DateRangeInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\daterangeinput.ascx.designer.cs
+++GreekAddressInfoInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\greekaddressinfoinput.ascx.cs
+++GreekAddressInfoInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\greekaddressinfoinput.ascx.designer.cs
+++HyperLinkInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\hyperlinkinput.ascx.cs
+++HyperLinkInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\hyperlinkinput.ascx.designer.cs
+++NumberRangeInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\numberrangeinput.ascx.cs
+++NumberRangeInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\numberrangeinput.ascx.designer.cs
+++ParticipationTerms.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\participationterms.ascx.cs
+++ParticipationTerms.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\participationterms.ascx.designer.cs
+++RegisterUserInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\registeruserinput.ascx.cs
+++RegisterUserInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\registeruserinput.ascx.designer.cs
+++TipIcon.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\tipicon.ascx.cs
+++TipIcon.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\tipicon.ascx.designer.cs
+++UserAccountDetails.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\useraccountdetails.ascx.cs
+++UserAccountDetails.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\genericcontrols\useraccountdetails.ascx.designer.cs
+++OffersGridView.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\gridviews\offersgridview.ascx.cs
+++OffersGridView.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\gridviews\offersgridview.ascx.designer.cs
+++LaptopOfferInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\inputcontrols\laptopofferinput.ascx
+++OfferGeneralInfoInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\inputcontrols\offergeneralinfoinput.ascx
+++LaptopOfferView.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\laptopofferview.ascx
+++OfferGeneralInfoView.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offergeneralinfoview.ascx
+++OfferRequirementsView.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offerrequirementsview.ascx
+++OfferView.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offerview.ascx
+++HintPopup.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\popups\hintpopup.ascx.cs
+++HintPopup.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\popups\hintpopup.ascx.designer.cs
+++OfferSearchFiltersControl.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\searchfilters\offersearchfilterscontrol.ascx.cs
+++OfferSearchFiltersControl.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\searchfilters\offersearchfilterscontrol.ascx.designer.cs
+++StoreInput.ascx
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\storecontrols\inputcontrols\storeinput.ascx
+++animated-overlay.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\animated-overlay.gif
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\animated-overlay.gif
+++ui-bg_flat_0_DCDCDC_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_flat_0_dcdcdc_40x100.png
+++ui-bg_flat_55_fbec88_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_flat_55_fbec88_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-bg_flat_55_fbec88_40x100.png
+++ui-bg_flat_80_f2f2f2_40x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_flat_80_f2f2f2_40x100.png
+++ui-bg_glass_75_d0e5f5_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-bg_glass_75_d0e5f5_1x400.png
+++ui-bg_glass_85_dfeffc_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_glass_85_dfeffc_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-bg_glass_85_dfeffc_1x400.png
+++ui-bg_glass_95_fef1ec_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_glass_95_fef1ec_1x400.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-bg_glass_95_fef1ec_1x400.png
+++ui-bg_gloss-wave_55_5c9ccc_500x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png
+++ui-bg_highlight-hard_80_fbf9ee_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_highlight-hard_80_fbf9ee_1x100.png
+++ui-bg_highlight-hard_95_d5d5d5_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_highlight-hard_95_d5d5d5_1x100.png
+++ui-bg_highlight-hard_95_E0DFDF_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_highlight-hard_95_e0dfdf_1x100.png
+++ui-bg_highlight-soft_75_cccccc_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+++ui-bg_highlight-soft_75_DCDCDC_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_highlight-soft_75_dcdcdc_1x100.png
+++ui-bg_inset-hard_100_f5f8f9_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-bg_inset-hard_100_f5f8f9_1x100.png
+++ui-bg_inset-hard_100_fcfdfd_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-bg_inset-hard_100_fcfdfd_1x100.png
+++ui-icons_217bc0_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_217bc0_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-icons_217bc0_256x240.png
+++ui-icons_404040_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_404040_256x240.png
+++ui-icons_469bdd_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_469bdd_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-icons_469bdd_256x240.png
+++ui-icons_6da8d5_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_6da8d5_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-icons_6da8d5_256x240.png
+++ui-icons_d8e7f3_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_d8e7f3_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-icons_d8e7f3_256x240.png
+++ui-icons_f9bd01_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\images\ui-icons_f9bd01_256x240.png
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\_css\jquery-ui\redmond\back\images\ui-icons_f9bd01_256x240.png
+++LaptopOfferInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\inputcontrols\laptopofferinput.ascx.cs
+++LaptopOfferInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\inputcontrols\laptopofferinput.ascx.designer.cs
+++OfferGeneralInfoInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\inputcontrols\offergeneralinfoinput.ascx.cs
+++OfferGeneralInfoInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\inputcontrols\offergeneralinfoinput.ascx.designer.cs
+++LaptopOfferView.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\laptopofferview.ascx.cs
+++LaptopOfferView.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\laptopofferview.ascx.designer.cs
+++OfferGeneralInfoView.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offergeneralinfoview.ascx.cs
+++OfferGeneralInfoView.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offergeneralinfoview.ascx.designer.cs
+++OfferRequirementsView.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offerrequirementsview.ascx.cs
+++OfferRequirementsView.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offerrequirementsview.ascx.designer.cs
+++OfferView.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offerview.ascx.cs
+++OfferView.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\offercontrols\viewcontrols\offerview.ascx.designer.cs
+++StoreInput.ascx.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\storecontrols\inputcontrols\storeinput.ascx.cs
+++StoreInput.ascx.designer.cs
+i:{4f9f419e-352f-42e1-b7de-01b3e58c0bd4}:c:\users\kkats\documents\offer management new 13-03-2022 backup\offermanagement.portal\usercontrols\storecontrols\inputcontrols\storeinput.ascx.designer.cs

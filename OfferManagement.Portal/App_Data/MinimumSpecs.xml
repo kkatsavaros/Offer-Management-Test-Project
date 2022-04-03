@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MinimumSpecs>
+  <CpuSpeed>1.7</CpuSpeed>
+  <RamSize>4</RamSize>
+  <StorageSize>500</StorageSize>
+  <UsbCount>3</UsbCount>
+  <HdmiCount>1</HdmiCount>
+  <ScreenSize>15.6</ScreenSize>
+  <ScreenResolutionX>1366</ScreenResolutionX>
+  <ScreenResolutionY>768</ScreenResolutionY>
+  <GuaranteeYears>2</GuaranteeYears>
+</MinimumSpecs>

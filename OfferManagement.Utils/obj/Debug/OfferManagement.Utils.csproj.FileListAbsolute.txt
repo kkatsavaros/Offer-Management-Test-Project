@@ -1,0 +1,27 @@
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.csproj.CoreCompileInputs.cache
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\bin\Debug\OfferManagement.Utils.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\bin\Debug\OfferManagement.Utils.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\bin\Debug\Imis.Web.Utils.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\bin\Debug\log4net.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\bin\Debug\log4net.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.csproj.CopyComplete
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\bin\Debug\OfferManagement.Utils.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\bin\Debug\OfferManagement.Utils.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\bin\Debug\Imis.Web.Utils.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\bin\Debug\log4net.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.csprojAssemblyReference.cache
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.csproj.CoreCompileInputs.cache
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.csproj.CopyComplete
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\bin\Debug\OfferManagement.Utils.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\bin\Debug\OfferManagement.Utils.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\bin\Debug\Imis.Web.Utils.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\bin\Debug\log4net.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.csproj.AssemblyReference.cache
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.csproj.CoreCompileInputs.cache
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.csproj.CopyComplete
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Utils\obj\Debug\OfferManagement.Utils.pdb

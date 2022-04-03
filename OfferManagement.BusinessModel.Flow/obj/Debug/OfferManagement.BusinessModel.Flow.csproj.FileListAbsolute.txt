@@ -1,0 +1,85 @@
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csprojAssemblyReference.cache
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CoreCompileInputs.cache
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Domain.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Domain.EF.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\Stateless.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\log4net.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Web.Utils.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll.config
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Domain.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\Stateless.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\Stateless.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\bin\Debug\log4net.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CopyComplete
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Domain.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\Stateless.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\log4net.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Web.Utils.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll.config
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csprojAssemblyReference.cache
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CoreCompileInputs.cache
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CopyComplete
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Domain.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\Stateless.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\log4net.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Web.Utils.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll.config
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.AssemblyReference.cache
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CoreCompileInputs.cache
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CopyComplete
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Domain.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\Stateless.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\log4net.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Web.Utils.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll.config
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.AssemblyReference.cache
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CoreCompileInputs.cache
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CopyComplete
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Domain.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\Stateless.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\log4net.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\Imis.Web.Utils.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.BusinessModel.dll.config
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\bin\Debug\OfferManagement.Utils.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.AssemblyReference.cache
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CoreCompileInputs.cache
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.csproj.CopyComplete
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.BusinessModel.Flow\obj\Debug\OfferManagement.BusinessModel.Flow.pdb

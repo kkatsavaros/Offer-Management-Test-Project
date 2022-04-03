@@ -1,0 +1,1397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DBEntitiesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Address">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FullAddress" Type="nvarchar" MaxLength="400" />
+          <Property Name="AddressName" Type="nvarchar" MaxLength="200" />
+          <Property Name="ZipCode" Type="nvarchar" MaxLength="5" />
+          <Property Name="CityID" Type="int" />
+          <Property Name="PrefectureID" Type="int" />
+          <Property Name="Latitude" Type="float" />
+          <Property Name="Longtitude" Type="float" />
+        </EntityType>
+        <EntityType Name="ApplicationRule">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="IsEnabled" Type="bit" Nullable="false" />
+          <Property Name="EnabledFrom" Type="datetime2" Precision="7" />
+          <Property Name="EnabledTo" Type="datetime2" Precision="7" />
+          <Property Name="ErrorMessage" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Bank">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="200" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EmailLog">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ReporterID" Type="int" />
+          <Property Name="Type" Type="int" Nullable="false" />
+          <Property Name="SenderEmailAddress" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="EmailAddress" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="CCedEmailAddresses" Type="nvarchar" MaxLength="1024" />
+          <Property Name="Subject" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Body" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="SentAt" Type="datetime2" Precision="7" />
+          <Property Name="DeliveryStatus" Type="int" Nullable="false" />
+          <Property Name="EmailEntityType" Type="int" Nullable="false" />
+          <Property Name="EntityID" Type="int" />
+          <Property Name="LastAttemptAt" Type="datetime2" Precision="7" />
+        </EntityType>
+        <EntityType Name="Kali_Cities">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="PrefectureID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kali_Prefectures">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="RegionID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kali_Regions">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="IsEligible" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Offer">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StoreID" Type="int" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="IsPublished" Type="bit" Nullable="false" />
+          <Property Name="OfferStatus" Type="int" Nullable="false" />
+          <Property Name="Code" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="IsLaptopCaseIncluded" Type="bit" />
+          <Property Name="OfferUrl" Type="nvarchar(max)" />
+          <Property Name="Price" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+          <Property Name="Manufacturer" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Model" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Cpu" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="CpuSpeed" Type="decimal" Precision="4" Scale="2" Nullable="false" />
+          <Property Name="RamSize" Type="decimal" Precision="3" Scale="1" Nullable="false" />
+          <Property Name="StorageSize" Type="int" Nullable="false" />
+          <Property Name="UsbCount" Type="int" Nullable="false" />
+          <Property Name="HdmiCount" Type="int" Nullable="false" />
+          <Property Name="ScreenSize" Type="decimal" Precision="3" Scale="1" Nullable="false" />
+          <Property Name="ScreenResolutionX" Type="int" Nullable="false" />
+          <Property Name="ScreenResolutionY" Type="int" Nullable="false" />
+          <Property Name="Color" Type="int" Nullable="false" />
+          <Property Name="OperatingSystem" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="GuaranteeYears" Type="int" Nullable="false" />
+          <Property Name="IsWiFi80211acCompliant" Type="bit" Nullable="false" />
+          <Property Name="OfficialSpecsUrl" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="SubmittedAt" Type="datetime2" Precision="7" />
+          <Property Name="SubmittedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="EvaluatedAt" Type="datetime2" Precision="7" />
+          <Property Name="EvaluatedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="EvaluationComments" Type="nvarchar(max)" />
+          <Property Name="CreatedAt" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="CreatedAtDateOnly" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="UpdatedAt" Type="datetime2" Precision="7" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="256" />
+        </EntityType>
+        <EntityType Name="OfferLog">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OfferID" Type="int" Nullable="false" />
+          <Property Name="OldStatus" Type="int" Nullable="false" />
+          <Property Name="NewStatus" Type="int" Nullable="false" />
+          <Property Name="OldValues" Type="xml" />
+          <Property Name="NewValues" Type="xml" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="CreatedAt" Type="datetime2" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityType Name="QueueEntry">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NumberOfRetries" Type="int" Nullable="false" />
+          <Property Name="MaxNumberOfRetries" Type="int" />
+          <Property Name="RetryInterval" Type="int" />
+          <Property Name="QueueEntryType" Type="int" Nullable="false" />
+          <Property Name="QueueEntryStatus" Type="int" Nullable="false" />
+          <Property Name="QueueEntryPriority" Type="int" Nullable="false" />
+          <Property Name="QueueDataXml" Type="xml" Nullable="false" />
+          <Property Name="LastAttemptAt" Type="datetime2" Precision="7" />
+          <Property Name="RetryData" Type="xml" />
+        </EntityType>
+        <EntityType Name="Reporter">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ReporterType" Type="int" Nullable="false" />
+          <Property Name="DeclarationType" Type="int" Nullable="false" />
+          <Property Name="ContactName" Type="nvarchar" MaxLength="200" />
+          <Property Name="ContactPhone" Type="nvarchar" MaxLength="10" />
+          <Property Name="ContactMobilePhone" Type="nvarchar" MaxLength="10" />
+          <Property Name="ContactEmail" Type="nvarchar" MaxLength="256" />
+          <Property Name="OtherDetails" Type="nvarchar" MaxLength="500" />
+          <Property Name="AddressID" Type="int" />
+          <Property Name="IsApproved" Type="bit" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="256" />
+          <Property Name="MustAcceptTerms" Type="bit" Nullable="false" />
+          <Property Name="MustChangePassword" Type="bit" Nullable="false" />
+          <Property Name="IsContactInfoCompleted" Type="bit" />
+          <Property Name="IsContactInfoVerified" Type="bit" StoreGeneratedPattern="Computed" />
+          <Property Name="IsEmailVerified" Type="bit" />
+          <Property Name="EmailVerificationCode" Type="nvarchar" MaxLength="256" />
+          <Property Name="EmailVerificationDate" Type="datetime2" Precision="7" />
+          <Property Name="IsMobilePhoneVerified" Type="bit" />
+          <Property Name="MobilePhoneVerificationCode" Type="nvarchar" MaxLength="8" />
+          <Property Name="MobilePhoneVerificationDate" Type="datetime2" Precision="7" />
+          <Property Name="SMSSentCount" Type="int" />
+          <Property Name="VerificationStatus" Type="int" />
+          <Property Name="VerificationNumber" Type="int" />
+          <Property Name="VerificationDate" Type="datetime2" Precision="7" />
+          <Property Name="VerifiedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="VerifiedAt" Type="datetime2" Precision="7" />
+          <Property Name="CreatedAt" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="CreatedAtDateOnly" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="UpdatedAt" Type="datetime2" Precision="7" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="256" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoleName" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SmsLog">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ReporterID" Type="int" />
+          <Property Name="Type" Type="int" Nullable="false" />
+          <Property Name="SendID" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="ReporterNumber" Type="nvarchar" MaxLength="12" Nullable="false" />
+          <Property Name="Msg" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="FieldValues" Type="nvarchar" MaxLength="500" />
+          <Property Name="SentAt" Type="datetime2" Precision="7" />
+          <Property Name="DeliveryStatus" Type="int" Nullable="false" />
+          <Property Name="EntityID" Type="int" />
+          <Property Name="LastAttemptAt" Type="datetime2" Precision="7" />
+        </EntityType>
+        <EntityType Name="Store">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="500" />
+          <Property Name="AFM" Type="nvarchar" MaxLength="10" />
+          <Property Name="DOY" Type="nvarchar" MaxLength="256" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="10" />
+          <Property Name="Fax" Type="nvarchar" MaxLength="10" />
+          <Property Name="Email" Type="nvarchar" MaxLength="256" />
+          <Property Name="URL" Type="nvarchar" MaxLength="256" />
+          <Property Name="CompanyType" Type="int" />
+          <Property Name="BankID" Type="int" />
+          <Property Name="IBAN" Type="nvarchar" MaxLength="50" />
+          <Property Name="HasPublishedOffers" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="TagType" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TaskLastRunTime">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="LastRunTime" Type="datetime2" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UsersInRoles">
+          <Key>
+            <PropertyRef Name="ReporterID" />
+            <PropertyRef Name="RoleID" />
+          </Key>
+          <Property Name="ReporterID" Type="int" Nullable="false" />
+          <Property Name="RoleID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VerificationLog">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ReporterID" Type="int" Nullable="false" />
+          <Property Name="OldVerificationStatus" Type="int" Nullable="false" />
+          <Property Name="NewVerificationStatus" Type="int" Nullable="false" />
+          <Property Name="VerificationNumber" Type="int" />
+          <Property Name="CreatedAt" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="256" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Address_Kali_Cities">
+          <End Role="Kali_Cities" Type="Self.Kali_Cities" Multiplicity="0..1" />
+          <End Role="Address" Type="Self.Address" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kali_Cities">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Address">
+              <PropertyRef Name="CityID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Address_Kali_Prefectures">
+          <End Role="Kali_Prefectures" Type="Self.Kali_Prefectures" Multiplicity="0..1" />
+          <End Role="Address" Type="Self.Address" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kali_Prefectures">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Address">
+              <PropertyRef Name="PrefectureID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmailLog_Reporter">
+          <End Role="Reporter" Type="Self.Reporter" Multiplicity="0..1" />
+          <End Role="EmailLog" Type="Self.EmailLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="EmailLog">
+              <PropertyRef Name="ReporterID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kap_Cities_Kap_Prefectures">
+          <End Role="Kali_Prefectures" Type="Self.Kali_Prefectures" Multiplicity="1" />
+          <End Role="Kali_Cities" Type="Self.Kali_Cities" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kali_Prefectures">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Kali_Cities">
+              <PropertyRef Name="PrefectureID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kap_Prefectures_Kap_Regions">
+          <End Role="Kali_Regions" Type="Self.Kali_Regions" Multiplicity="1" />
+          <End Role="Kali_Prefectures" Type="Self.Kali_Prefectures" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kali_Regions">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Kali_Prefectures">
+              <PropertyRef Name="RegionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Offer_Store">
+          <End Role="Store" Type="Self.Store" Multiplicity="1" />
+          <End Role="Offer" Type="Self.Offer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Store">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Offer">
+              <PropertyRef Name="StoreID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OfferLog_Offer">
+          <End Role="Offer" Type="Self.Offer" Multiplicity="1" />
+          <End Role="OfferLog" Type="Self.OfferLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Offer">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="OfferLog">
+              <PropertyRef Name="OfferID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Reporter_Address">
+          <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+          <End Role="Reporter" Type="Self.Reporter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Address">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Reporter">
+              <PropertyRef Name="AddressID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SmsLog_Reporter">
+          <End Role="Reporter" Type="Self.Reporter" Multiplicity="0..1" />
+          <End Role="SmsLog" Type="Self.SmsLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="SmsLog">
+              <PropertyRef Name="ReporterID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Store_Bank">
+          <End Role="Bank" Type="Self.Bank" Multiplicity="0..1" />
+          <End Role="Store" Type="Self.Store" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bank">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Store">
+              <PropertyRef Name="BankID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Store_Reporter">
+          <End Role="Reporter" Type="Self.Reporter" Multiplicity="1" />
+          <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Store">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsersInRoles_Reporter">
+          <End Role="Reporter" Type="Self.Reporter" Multiplicity="1" />
+          <End Role="UsersInRoles" Type="Self.UsersInRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="UsersInRoles">
+              <PropertyRef Name="ReporterID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsersInRoles_Role">
+          <End Role="Role" Type="Self.Role" Multiplicity="1" />
+          <End Role="UsersInRoles" Type="Self.UsersInRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="UsersInRoles">
+              <PropertyRef Name="RoleID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_VerificationLog_Reporter">
+          <End Role="Reporter" Type="Self.Reporter" Multiplicity="1" />
+          <End Role="VerificationLog" Type="Self.VerificationLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="VerificationLog">
+              <PropertyRef Name="ReporterID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="sp_GetStoreOfferCounters" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="StoreID" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="DBEntitiesModelStoreContainer">
+          <EntitySet Name="Address" EntityType="Self.Address" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ApplicationRule" EntityType="Self.ApplicationRule" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Bank" EntityType="Self.Bank" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EmailLog" EntityType="Self.EmailLog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kali_Cities" EntityType="Self.Kali_Cities" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kali_Prefectures" EntityType="Self.Kali_Prefectures" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kali_Regions" EntityType="Self.Kali_Regions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Offer" EntityType="Self.Offer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OfferLog" EntityType="Self.OfferLog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="QueueEntry" EntityType="Self.QueueEntry" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Reporter" EntityType="Self.Reporter" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SmsLog" EntityType="Self.SmsLog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Store" EntityType="Self.Store" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tag" EntityType="Self.Tag" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TaskLastRunTime" EntityType="Self.TaskLastRunTime" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UsersInRoles" EntityType="Self.UsersInRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VerificationLog" EntityType="Self.VerificationLog" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Address_Kali_Cities" Association="Self.FK_Address_Kali_Cities">
+            <End Role="Kali_Cities" EntitySet="Kali_Cities" />
+            <End Role="Address" EntitySet="Address" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Address_Kali_Prefectures" Association="Self.FK_Address_Kali_Prefectures">
+            <End Role="Kali_Prefectures" EntitySet="Kali_Prefectures" />
+            <End Role="Address" EntitySet="Address" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmailLog_Reporter" Association="Self.FK_EmailLog_Reporter">
+            <End Role="Reporter" EntitySet="Reporter" />
+            <End Role="EmailLog" EntitySet="EmailLog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kap_Cities_Kap_Prefectures" Association="Self.FK_Kap_Cities_Kap_Prefectures">
+            <End Role="Kali_Prefectures" EntitySet="Kali_Prefectures" />
+            <End Role="Kali_Cities" EntitySet="Kali_Cities" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kap_Prefectures_Kap_Regions" Association="Self.FK_Kap_Prefectures_Kap_Regions">
+            <End Role="Kali_Regions" EntitySet="Kali_Regions" />
+            <End Role="Kali_Prefectures" EntitySet="Kali_Prefectures" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Offer_Store" Association="Self.FK_Offer_Store">
+            <End Role="Store" EntitySet="Store" />
+            <End Role="Offer" EntitySet="Offer" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OfferLog_Offer" Association="Self.FK_OfferLog_Offer">
+            <End Role="Offer" EntitySet="Offer" />
+            <End Role="OfferLog" EntitySet="OfferLog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Reporter_Address" Association="Self.FK_Reporter_Address">
+            <End Role="Address" EntitySet="Address" />
+            <End Role="Reporter" EntitySet="Reporter" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SmsLog_Reporter" Association="Self.FK_SmsLog_Reporter">
+            <End Role="Reporter" EntitySet="Reporter" />
+            <End Role="SmsLog" EntitySet="SmsLog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Store_Bank" Association="Self.FK_Store_Bank">
+            <End Role="Bank" EntitySet="Bank" />
+            <End Role="Store" EntitySet="Store" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Store_Reporter" Association="Self.FK_Store_Reporter">
+            <End Role="Reporter" EntitySet="Reporter" />
+            <End Role="Store" EntitySet="Store" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsersInRoles_Reporter" Association="Self.FK_UsersInRoles_Reporter">
+            <End Role="Reporter" EntitySet="Reporter" />
+            <End Role="UsersInRoles" EntitySet="UsersInRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsersInRoles_Role" Association="Self.FK_UsersInRoles_Role">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="UsersInRoles" EntitySet="UsersInRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_VerificationLog_Reporter" Association="Self.FK_VerificationLog_Reporter">
+            <End Role="Reporter" EntitySet="Reporter" />
+            <End Role="VerificationLog" EntitySet="VerificationLog" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBEntitiesModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+          <EntitySet Name="CitySet" EntityType="DBEntitiesModel.City" />
+          <EntitySet Name="PrefectureSet" EntityType="DBEntitiesModel.Prefecture" />
+          <EntitySet Name="RegionSet" EntityType="DBEntitiesModel.Region" />
+          <EntitySet Name="Reporters" EntityType="DBEntitiesModel.Reporter" />
+          <AssociationSet Name="FK_Kap_Cities_Kap_Prefectures" Association="DBEntitiesModel.FK_Kap_Cities_Kap_Prefectures">
+            <End Role="Kali_Prefectures" EntitySet="PrefectureSet" />
+            <End Role="Kali_Cities" EntitySet="CitySet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kap_Prefectures_Kap_Regions" Association="DBEntitiesModel.FK_Kap_Prefectures_Kap_Regions">
+            <End Role="Kali_Regions" EntitySet="RegionSet" />
+            <End Role="Kali_Prefectures" EntitySet="PrefectureSet" />
+          </AssociationSet>
+          <EntitySet Name="Roles" EntityType="DBEntitiesModel.Role" />
+          <AssociationSet Name="UsersInRoles" Association="DBEntitiesModel.UsersInRoles">
+            <End Role="Reporter" EntitySet="Reporters" />
+            <End Role="Role" EntitySet="Roles" />
+          </AssociationSet>
+          <EntitySet Name="VerificationLog" EntityType="DBEntitiesModel.VerificationLog" />
+          <AssociationSet Name="FK_VerificationLog_Reporter" Association="DBEntitiesModel.FK_VerificationLog_Reporter">
+            <End Role="Reporter" EntitySet="Reporters" />
+            <End Role="VerificationLog" EntitySet="VerificationLog" />
+          </AssociationSet>
+          <EntitySet Name="Address" EntityType="DBEntitiesModel.Address" />
+          <AssociationSet Name="FK_Address_Kali_Cities" Association="DBEntitiesModel.FK_Address_Kali_Cities">
+            <End Role="City" EntitySet="CitySet" />
+            <End Role="Address" EntitySet="Address" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Address_Kali_Prefectures" Association="DBEntitiesModel.FK_Address_Kali_Prefectures">
+            <End Role="Prefecture" EntitySet="PrefectureSet" />
+            <End Role="Address" EntitySet="Address" />
+          </AssociationSet>
+          <EntitySet Name="EmailLog" EntityType="DBEntitiesModel.Email" />
+          <EntitySet Name="QueueEntry" EntityType="DBEntitiesModel.QueueEntry" />
+          <EntitySet Name="SmsLog" EntityType="DBEntitiesModel.SMS" />
+          <AssociationSet Name="FK_EmailLog_Reporter" Association="DBEntitiesModel.FK_EmailLog_Reporter">
+            <End Role="Reporter" EntitySet="Reporters" />
+            <End Role="EmailLog" EntitySet="EmailLog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SmsLog_Reporter" Association="DBEntitiesModel.FK_SmsLog_Reporter">
+            <End Role="Reporter" EntitySet="Reporters" />
+            <End Role="SmsLog" EntitySet="SmsLog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Reporter_Address" Association="DBEntitiesModel.FK_Reporter_Address">
+            <End Role="Address" EntitySet="Address" />
+            <End Role="Reporter" EntitySet="Reporters" />
+          </AssociationSet>
+          <EntitySet Name="ApplicationRules" EntityType="DBEntitiesModel.ApplicationRule" />
+          <EntitySet Name="TaskLastRunTimes" EntityType="DBEntitiesModel.TaskLastRunTime" />
+          <EntitySet Name="Tags" EntityType="DBEntitiesModel.Tag" />
+          <EntitySet Name="Stores" EntityType="DBEntitiesModel.Store" />
+          <AssociationSet Name="FK_Store_Reporter" Association="DBEntitiesModel.FK_Store_Reporter">
+            <End Role="Reporter" EntitySet="Reporters" />
+            <End Role="Store" EntitySet="Stores" />
+          </AssociationSet>
+          <EntitySet Name="Offers" EntityType="DBEntitiesModel.Offer" />
+          <EntitySet Name="OfferLogs" EntityType="DBEntitiesModel.OfferLog" />
+          <AssociationSet Name="FK_Offer_Store" Association="DBEntitiesModel.FK_Offer_Store">
+            <End Role="Store" EntitySet="Stores" />
+            <End Role="Offer" EntitySet="Offers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OfferLog_Offer" Association="DBEntitiesModel.FK_OfferLog_Offer">
+            <End Role="Offer" EntitySet="Offers" />
+            <End Role="OfferLog" EntitySet="OfferLogs" />
+          </AssociationSet>
+          <FunctionImport Name="GetStoreOfferCounters" ReturnType="Collection(DBEntitiesModel.StoreOfferCounters)">
+          <Parameter Name="StoreID" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="UpdateStoreBrowse" />
+          <EntitySet Name="Banks" EntityType="DBEntitiesModel.Bank" />
+          <AssociationSet Name="FK_Store_Bank" Association="DBEntitiesModel.FK_Store_Bank">
+            <End Role="Bank" EntitySet="Banks" />
+            <End Role="Store" EntitySet="Stores" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="City">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="PrefectureID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Prefectures" Relationship="DBEntitiesModel.FK_Kap_Cities_Kap_Prefectures" FromRole="Kali_Cities" ToRole="Kali_Prefectures" />
+          <NavigationProperty Name="Addresses" Relationship="DBEntitiesModel.FK_Address_Kali_Cities" FromRole="City" ToRole="Address" />
+          </EntityType>
+        <EntityType Name="Prefecture">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="RegionID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Cities" Relationship="DBEntitiesModel.FK_Kap_Cities_Kap_Prefectures" FromRole="Kali_Prefectures" ToRole="Kali_Cities" />
+          <NavigationProperty Name="Regions" Relationship="DBEntitiesModel.FK_Kap_Prefectures_Kap_Regions" FromRole="Kali_Prefectures" ToRole="Kali_Regions" />
+          <NavigationProperty Name="Addresses" Relationship="DBEntitiesModel.FK_Address_Kali_Prefectures" FromRole="Prefecture" ToRole="Address" />
+          </EntityType>
+        <EntityType Name="Region">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Prefectures" Relationship="DBEntitiesModel.FK_Kap_Prefectures_Kap_Regions" FromRole="Kali_Regions" ToRole="Kali_Prefectures" />
+          <Property Type="Boolean" Name="IsEligible" Nullable="false" />
+          </EntityType>
+        <EntityType Name="Reporter" Abstract="false">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="ReporterTypeInt" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="DeclarationTypeInt" Type="Int32" Nullable="false" />
+          <Property Name="ContactName" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="ContactPhone" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="ContactMobilePhone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="ContactEmail" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+          <Property Name="OtherDetails" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="256" Unicode="true" FixedLength="false" Nullable="false" />
+          <Property Name="MustAcceptTerms" Type="Boolean" Nullable="false" />
+          <Property Name="MustChangePassword" Type="Boolean" Nullable="false" />
+          <Property Name="IsContactInfoCompleted" Type="Boolean" Nullable="true" />
+          <Property Name="IsContactInfoVerified" Type="Boolean" Nullable="true" annotation:StoreGeneratedPattern="Computed" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="IsEmailVerified" Type="Boolean" Nullable="true" />
+          <Property Name="EmailVerificationCode" Type="String" Nullable="true" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EmailVerificationDate" Type="DateTime" Nullable="true" Precision="7" />
+          <Property Name="IsMobilePhoneVerified" Type="Boolean" Nullable="true" />
+          <Property Name="MobilePhoneVerificationCode" Type="String" Nullable="true" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="MobilePhoneVerificationDate" Type="DateTime" Nullable="true" Precision="7" />
+          <Property Name="SMSSentCount" Type="Int32" Nullable="true" />
+          <Property Name="VerificationStatusInt" Type="Int32" />
+          <Property Name="VerificationDate" Type="DateTime" Precision="7" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="CreatedAtDateOnly" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="7" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Roles" Relationship="DBEntitiesModel.UsersInRoles" FromRole="Reporter" ToRole="Role" />
+          <NavigationProperty Name="VerificationLog" Relationship="DBEntitiesModel.FK_VerificationLog_Reporter" FromRole="Reporter" ToRole="VerificationLog" />
+          <NavigationProperty Name="Emails" Relationship="DBEntitiesModel.FK_EmailLog_Reporter" FromRole="Reporter" ToRole="EmailLog" />
+          <NavigationProperty Name="SMSs" Relationship="DBEntitiesModel.FK_SmsLog_Reporter" FromRole="Reporter" ToRole="SmsLog" />
+          <Property Type="Int32" Name="AddressID" />
+          <NavigationProperty Name="Address" Relationship="DBEntitiesModel.FK_Reporter_Address" FromRole="Reporter" ToRole="Address" />
+          <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Store" Relationship="DBEntitiesModel.FK_Store_Reporter" FromRole="Reporter" ToRole="Store" />
+          <Property Name="VerificationNumber" Type="Int32" />
+          <Property Name="VerifiedAt" Type="DateTime" Precision="7" />
+          <Property Name="VerifiedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_Kap_Cities_Kap_Prefectures">
+          <End Role="Kali_Prefectures" Type="DBEntitiesModel.Prefecture" Multiplicity="1" />
+          <End Role="Kali_Cities" Type="DBEntitiesModel.City" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kali_Prefectures">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Kali_Cities">
+              <PropertyRef Name="PrefectureID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kap_Prefectures_Kap_Regions">
+          <End Role="Kali_Regions" Type="DBEntitiesModel.Region" Multiplicity="1" />
+          <End Role="Kali_Prefectures" Type="DBEntitiesModel.Prefecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kali_Regions">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Kali_Prefectures">
+              <PropertyRef Name="RegionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Type="String" Name="RoleName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Reporters" Relationship="DBEntitiesModel.UsersInRoles" FromRole="Role" ToRole="Reporter" />
+        </EntityType>
+        <Association Name="UsersInRoles">
+          <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="*" />
+          <End Type="DBEntitiesModel.Role" Role="Role" Multiplicity="*" />
+        </Association>
+        <EntityType Name="VerificationLog">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Type="Int32" Name="ReporterID" Nullable="false" />
+          <Property Type="Int32" Name="OldVerificationStatusInt" Nullable="false" />
+          <Property Type="Int32" Name="NewVerificationStatusInt" Nullable="false" />
+          <Property Type="DateTime" Name="CreatedAt" Nullable="false" Precision="7" />
+          <Property Type="String" Name="CreatedBy" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Reporter" Relationship="DBEntitiesModel.FK_VerificationLog_Reporter" FromRole="VerificationLog" ToRole="Reporter" />
+          <Property Name="VerificationNumber" Type="Int32" />
+        </EntityType>
+        <Association Name="FK_VerificationLog_Reporter">
+          <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="1" />
+          <End Type="DBEntitiesModel.VerificationLog" Role="VerificationLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="VerificationLog">
+              <PropertyRef Name="ReporterID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Address">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Type="String" Name="AddressName" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ZipCode" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="CityID" />
+          <Property Type="Int32" Name="PrefectureID" />
+          <Property Type="Double" Name="Latitude" />
+          <Property Type="Double" Name="Longtitude" />
+          <NavigationProperty Name="City" Relationship="DBEntitiesModel.FK_Address_Kali_Cities" FromRole="Address" ToRole="City" />
+          <NavigationProperty Name="Prefecture" Relationship="DBEntitiesModel.FK_Address_Kali_Prefectures" FromRole="Address" ToRole="Prefecture" />
+          <Property Type="String" Name="FullAddress" MaxLength="400" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Reporters" Relationship="DBEntitiesModel.FK_Reporter_Address" FromRole="Address" ToRole="Reporter" />
+        </EntityType>
+        <Association Name="FK_Address_Kali_Cities">
+          <End Type="DBEntitiesModel.City" Role="City" Multiplicity="0..1" />
+          <End Type="DBEntitiesModel.Address" Role="Address" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="City">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Address">
+              <PropertyRef Name="CityID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Address_Kali_Prefectures">
+          <End Type="DBEntitiesModel.Prefecture" Role="Prefecture" Multiplicity="0..1" />
+          <End Type="DBEntitiesModel.Address" Role="Address" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Prefecture">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Address">
+              <PropertyRef Name="PrefectureID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Email">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Type="Int32" Name="ReporterID" />
+          <Property Type="Int32" Name="TypeInt" Nullable="false" />
+          <Property Type="String" Name="SenderEmailAddress" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmailAddress" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="CCedEmailAddresses" MaxLength="1024" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Subject" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Body" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="SentAt" Precision="7" />
+          <Property Type="Int32" Name="DeliveryStatusInt" Nullable="false" />
+          <Property Type="Int32" Name="EmailEntityTypeInt" Nullable="false" />
+          <Property Type="Int32" Name="EntityID" />
+          <Property Type="DateTime" Name="LastAttemptAt" Precision="7" />
+          <NavigationProperty Name="Reporter" Relationship="DBEntitiesModel.FK_EmailLog_Reporter" FromRole="EmailLog" ToRole="Reporter" />
+        </EntityType>
+        <EntityType Name="QueueEntry">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Type="Int32" Name="NumberOfRetries" Nullable="false" />
+          <Property Type="Int32" Name="MaxNumberOfRetries" />
+          <Property Type="Int32" Name="RetryInterval" />
+          <Property Type="Int32" Name="QueueEntryTypeInt" Nullable="false" />
+          <Property Type="Int32" Name="QueueEntryStatusInt" Nullable="false" />
+          <Property Type="Int32" Name="QueueEntryPriorityInt" Nullable="false" />
+          <Property Type="String" Name="QueueDataXml" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="LastAttemptAt" Precision="7" />
+          <Property Type="String" Name="RetryDataXml" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="SMS">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Type="Int32" Name="ReporterID" />
+          <Property Type="Int32" Name="TypeInt" Nullable="false" />
+          <Property Type="String" Name="SendID" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ReporterNumber" Nullable="false" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Msg" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="FieldValuesInternal" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="SentAt" Precision="7" />
+          <Property Type="Int32" Name="DeliveryStatusInt" Nullable="false" />
+          <Property Type="Int32" Name="EntityID" />
+          <Property Type="DateTime" Name="LastAttemptAt" Precision="7" />
+          <NavigationProperty Name="Reporter" Relationship="DBEntitiesModel.FK_SmsLog_Reporter" FromRole="SmsLog" ToRole="Reporter" />
+        </EntityType>
+        <Association Name="FK_EmailLog_Reporter">
+          <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="0..1" />
+          <End Type="DBEntitiesModel.Email" Role="EmailLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="EmailLog">
+              <PropertyRef Name="ReporterID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SmsLog_Reporter">
+          <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="0..1" />
+          <End Type="DBEntitiesModel.SMS" Role="SmsLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="SmsLog">
+              <PropertyRef Name="ReporterID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Reporter_Address">
+          <End Type="DBEntitiesModel.Address" Role="Address" Multiplicity="0..1" />
+          <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Address">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Reporter">
+              <PropertyRef Name="AddressID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ApplicationRule">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="IsEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="EnabledFrom" Type="DateTime" Precision="7" />
+          <Property Name="EnabledTo" Type="DateTime" Precision="7" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TaskLastRunTime">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="LastRunTime" Type="DateTime" Nullable="false" Precision="7" />
+        </EntityType>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="TagTypeInt" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Store">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="AFM" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="DOY" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Fax" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="URL" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Reporter" Relationship="DBEntitiesModel.FK_Store_Reporter" FromRole="Store" ToRole="Reporter" />
+          <Property Name="CompanyTypeInt" Type="Int32" />
+          <NavigationProperty Name="Offers" Relationship="DBEntitiesModel.FK_Offer_Store" FromRole="Store" ToRole="Offer" />
+          <Property Name="BankID" Type="Int32" />
+          <Property Name="IBAN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Bank" Relationship="DBEntitiesModel.FK_Store_Bank" FromRole="Store" ToRole="Bank" />
+          <Property Name="HasPublishedOffers" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Store_Reporter">
+          <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="1" />
+          <End Type="DBEntitiesModel.Store" Role="Store" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Reporter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Store">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Offer">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="StoreID" Type="Int32" Nullable="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="IsPublished" Type="Boolean" Nullable="false" />
+          <Property Name="OfferStatusInt" Type="Int32" Nullable="false" />
+          <Property Name="Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="OfferUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Manufacturer" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Model" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ScreenSize" Type="Decimal" Precision="3" Scale="1" Nullable="false" />
+          <Property Name="ScreenResolutionX" Type="Int32" Nullable="false" />
+          <Property Name="ScreenResolutionY" Type="Int32" Nullable="false" />
+          <Property Name="RamSize" Type="Decimal" Precision="3" Scale="1" Nullable="false" />
+          <Property Name="StorageSize" Type="Int32" Nullable="false" />
+          <Property Name="OperatingSystem" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GuaranteeYears" Type="Int32" Nullable="false" />
+          <Property Name="OfficialSpecsUrl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Price" Type="Decimal" Precision="6" Scale="2" Nullable="false" />
+          <Property Name="SubmittedAt" Type="DateTime" Precision="7" />
+          <Property Name="SubmittedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EvaluatedAt" Type="DateTime" Precision="7" />
+          <Property Name="EvaluatedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EvaluationComments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="CreatedAtDateOnly" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="7" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Store" Relationship="DBEntitiesModel.FK_Offer_Store" FromRole="Offer" ToRole="Store" />
+          <NavigationProperty Name="OfferLogs" Relationship="DBEntitiesModel.FK_OfferLog_Offer" FromRole="Offer" ToRole="OfferLog" />
+          <Property Name="Cpu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CpuSpeed" Type="Decimal" Precision="4" Scale="2" Nullable="false" />
+          <Property Name="UsbCount" Type="Int32" Nullable="false" />
+          <Property Name="HdmiCount" Type="Int32" Nullable="false" />
+          <Property Name="IsWiFi80211acCompliant" Type="Boolean" Nullable="false" />
+          <Property Name="ColorInt" Type="Int32" Nullable="false" />
+          <Property Name="IsLaptopCaseIncluded" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="OfferLog">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="OfferID" Type="Int32" Nullable="false" />
+          <Property Name="OldStatusInt" Type="Int32" Nullable="false" />
+          <Property Name="NewStatusInt" Type="Int32" Nullable="false" />
+          <Property Name="OldValuesXml" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NewValuesXml" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="7" />
+          <NavigationProperty Name="Offer" Relationship="DBEntitiesModel.FK_OfferLog_Offer" FromRole="OfferLog" ToRole="Offer" />
+        </EntityType>
+        <Association Name="FK_Offer_Store">
+          <End Type="DBEntitiesModel.Store" Role="Store" Multiplicity="1" />
+          <End Type="DBEntitiesModel.Offer" Role="Offer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Store">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Offer">
+              <PropertyRef Name="StoreID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OfferLog_Offer">
+          <End Type="DBEntitiesModel.Offer" Role="Offer" Multiplicity="1" />
+          <End Type="DBEntitiesModel.OfferLog" Role="OfferLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Offer">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="OfferLog">
+              <PropertyRef Name="OfferID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <ComplexType Name="StoreOfferCounters">
+          <Property Type="Int32" Name="TotalCount" Nullable="true" />
+          <Property Type="Int32" Name="CreatedCount" Nullable="true" />
+          <Property Type="Int32" Name="SubmittedCount" Nullable="true" />
+          <Property Type="Int32" Name="ApprovedCount" Nullable="true" />
+          <Property Type="Int32" Name="AcceptedCount" Nullable="true" />
+          <Property Type="Int32" Name="PublishedCount" Nullable="true" />
+        </ComplexType>
+        <EntityType Name="Bank">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Stores" Relationship="DBEntitiesModel.FK_Store_Bank" FromRole="Bank" ToRole="Store" />
+        </EntityType>
+        <Association Name="FK_Store_Bank">
+          <End Type="DBEntitiesModel.Bank" Role="Bank" Multiplicity="0..1" />
+          <End Type="DBEntitiesModel.Store" Role="Store" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bank">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Store">
+              <PropertyRef Name="BankID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBEntitiesModelStoreContainer" CdmEntityContainer="DBEntities">
+          <EntitySetMapping Name="CitySet">
+            <EntityTypeMapping TypeName="DBEntitiesModel.City">
+              <MappingFragment StoreEntitySet="Kali_Cities">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="PrefectureID" ColumnName="PrefectureID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PrefectureSet">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Prefecture">
+              <MappingFragment StoreEntitySet="Kali_Prefectures">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RegionSet">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Region">
+              <MappingFragment StoreEntitySet="Kali_Regions">
+                <ScalarProperty Name="IsEligible" ColumnName="IsEligible" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Reporters">
+            <EntityTypeMapping TypeName="IsTypeOf(DBEntitiesModel.Reporter)">
+              <MappingFragment StoreEntitySet="Reporter">
+                <ScalarProperty Name="VerifiedBy" ColumnName="VerifiedBy" />
+                <ScalarProperty Name="VerifiedAt" ColumnName="VerifiedAt" />
+                <ScalarProperty Name="VerificationNumber" ColumnName="VerificationNumber" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+                <ScalarProperty Name="ReporterTypeInt" ColumnName="ReporterType" />
+                <ScalarProperty Name="OtherDetails" ColumnName="OtherDetails" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="SMSSentCount" ColumnName="SMSSentCount" />
+                <ScalarProperty Name="MobilePhoneVerificationDate" ColumnName="MobilePhoneVerificationDate" />
+                <ScalarProperty Name="MobilePhoneVerificationCode" ColumnName="MobilePhoneVerificationCode" />
+                <ScalarProperty Name="IsMobilePhoneVerified" ColumnName="IsMobilePhoneVerified" />
+                <ScalarProperty Name="EmailVerificationDate" ColumnName="EmailVerificationDate" />
+                <ScalarProperty Name="EmailVerificationCode" ColumnName="EmailVerificationCode" />
+                <ScalarProperty Name="IsEmailVerified" ColumnName="IsEmailVerified" />
+                <ScalarProperty Name="IsContactInfoVerified" ColumnName="IsContactInfoVerified" />
+                <ScalarProperty Name="IsContactInfoCompleted" ColumnName="IsContactInfoCompleted" />
+                <ScalarProperty Name="VerificationDate" ColumnName="VerificationDate" />
+                <ScalarProperty Name="VerificationStatusInt" ColumnName="VerificationStatus" />
+                <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+                <ScalarProperty Name="MustAcceptTerms" ColumnName="MustAcceptTerms" />
+                <ScalarProperty Name="DeclarationTypeInt" ColumnName="DeclarationType" />
+                <ScalarProperty Name="MustChangePassword" ColumnName="MustChangePassword" />
+                <ScalarProperty Name="CreatedAtDateOnly" ColumnName="CreatedAtDateOnly" />
+                <ScalarProperty Name="ContactMobilePhone" ColumnName="ContactMobilePhone" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+                <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Role">
+              <MappingFragment StoreEntitySet="Role">
+                <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="UsersInRoles" TypeName="DBEntitiesModel.UsersInRoles" StoreEntitySet="UsersInRoles">
+            <EndProperty Name="Role">
+              <ScalarProperty Name="ID" ColumnName="RoleID" />
+            </EndProperty>
+            <EndProperty Name="Reporter">
+              <ScalarProperty Name="ID" ColumnName="ReporterID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <EntitySetMapping Name="VerificationLog">
+            <EntityTypeMapping TypeName="DBEntitiesModel.VerificationLog">
+              <MappingFragment StoreEntitySet="VerificationLog">
+                <ScalarProperty Name="VerificationNumber" ColumnName="VerificationNumber" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="NewVerificationStatusInt" ColumnName="NewVerificationStatus" />
+                <ScalarProperty Name="OldVerificationStatusInt" ColumnName="OldVerificationStatus" />
+                <ScalarProperty Name="ReporterID" ColumnName="ReporterID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Address">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Address">
+              <MappingFragment StoreEntitySet="Address">
+                <ScalarProperty Name="FullAddress" ColumnName="FullAddress" />
+                <ScalarProperty Name="Longtitude" ColumnName="Longtitude" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="PrefectureID" ColumnName="PrefectureID" />
+                <ScalarProperty Name="CityID" ColumnName="CityID" />
+                <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+                <ScalarProperty Name="AddressName" ColumnName="AddressName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EmailLog">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Email">
+              <MappingFragment StoreEntitySet="EmailLog">
+                <ScalarProperty Name="LastAttemptAt" ColumnName="LastAttemptAt" />
+                <ScalarProperty Name="EntityID" ColumnName="EntityID" />
+                <ScalarProperty Name="EmailEntityTypeInt" ColumnName="EmailEntityType" />
+                <ScalarProperty Name="DeliveryStatusInt" ColumnName="DeliveryStatus" />
+                <ScalarProperty Name="SentAt" ColumnName="SentAt" />
+                <ScalarProperty Name="Body" ColumnName="Body" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="CCedEmailAddresses" ColumnName="CCedEmailAddresses" />
+                <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+                <ScalarProperty Name="SenderEmailAddress" ColumnName="SenderEmailAddress" />
+                <ScalarProperty Name="TypeInt" ColumnName="Type" />
+                <ScalarProperty Name="ReporterID" ColumnName="ReporterID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="QueueEntry">
+            <EntityTypeMapping TypeName="DBEntitiesModel.QueueEntry">
+              <MappingFragment StoreEntitySet="QueueEntry">
+                <ScalarProperty Name="RetryDataXml" ColumnName="RetryData" />
+                <ScalarProperty Name="LastAttemptAt" ColumnName="LastAttemptAt" />
+                <ScalarProperty Name="QueueDataXml" ColumnName="QueueDataXml" />
+                <ScalarProperty Name="QueueEntryPriorityInt" ColumnName="QueueEntryPriority" />
+                <ScalarProperty Name="QueueEntryStatusInt" ColumnName="QueueEntryStatus" />
+                <ScalarProperty Name="QueueEntryTypeInt" ColumnName="QueueEntryType" />
+                <ScalarProperty Name="RetryInterval" ColumnName="RetryInterval" />
+                <ScalarProperty Name="MaxNumberOfRetries" ColumnName="MaxNumberOfRetries" />
+                <ScalarProperty Name="NumberOfRetries" ColumnName="NumberOfRetries" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SmsLog">
+            <EntityTypeMapping TypeName="DBEntitiesModel.SMS">
+              <MappingFragment StoreEntitySet="SmsLog">
+                <ScalarProperty Name="LastAttemptAt" ColumnName="LastAttemptAt" />
+                <ScalarProperty Name="EntityID" ColumnName="EntityID" />
+                <ScalarProperty Name="DeliveryStatusInt" ColumnName="DeliveryStatus" />
+                <ScalarProperty Name="SentAt" ColumnName="SentAt" />
+                <ScalarProperty Name="FieldValuesInternal" ColumnName="FieldValues" />
+                <ScalarProperty Name="Msg" ColumnName="Msg" />
+                <ScalarProperty Name="ReporterNumber" ColumnName="ReporterNumber" />
+                <ScalarProperty Name="SendID" ColumnName="SendID" />
+                <ScalarProperty Name="TypeInt" ColumnName="Type" />
+                <ScalarProperty Name="ReporterID" ColumnName="ReporterID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ApplicationRules">
+            <EntityTypeMapping TypeName="DBEntitiesModel.ApplicationRule">
+              <MappingFragment StoreEntitySet="ApplicationRule">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="EnabledTo" ColumnName="EnabledTo" />
+                <ScalarProperty Name="EnabledFrom" ColumnName="EnabledFrom" />
+                <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TaskLastRunTimes">
+            <EntityTypeMapping TypeName="DBEntitiesModel.TaskLastRunTime">
+              <MappingFragment StoreEntitySet="TaskLastRunTime">
+                <ScalarProperty Name="LastRunTime" ColumnName="LastRunTime" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tags">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Tag">
+              <MappingFragment StoreEntitySet="Tag">
+                <ScalarProperty Name="TagTypeInt" ColumnName="TagType" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Stores">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Store">
+              <MappingFragment StoreEntitySet="Store">
+                <ScalarProperty Name="HasPublishedOffers" ColumnName="HasPublishedOffers" />
+                <ScalarProperty Name="IBAN" ColumnName="IBAN" />
+                <ScalarProperty Name="BankID" ColumnName="BankID" />
+                <ScalarProperty Name="CompanyTypeInt" ColumnName="CompanyType" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="DOY" ColumnName="DOY" />
+                <ScalarProperty Name="AFM" ColumnName="AFM" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Offers">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Offer">
+              <MappingFragment StoreEntitySet="Offer">
+                <ScalarProperty Name="IsLaptopCaseIncluded" ColumnName="IsLaptopCaseIncluded" />
+                <ScalarProperty Name="ColorInt" ColumnName="Color" />
+                <ScalarProperty Name="IsWiFi80211acCompliant" ColumnName="IsWiFi80211acCompliant" />
+                <ScalarProperty Name="HdmiCount" ColumnName="HdmiCount" />
+                <ScalarProperty Name="UsbCount" ColumnName="UsbCount" />
+                <ScalarProperty Name="CpuSpeed" ColumnName="CpuSpeed" />
+                <ScalarProperty Name="Cpu" ColumnName="Cpu" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAtDateOnly" ColumnName="CreatedAtDateOnly" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="EvaluationComments" ColumnName="EvaluationComments" />
+                <ScalarProperty Name="EvaluatedBy" ColumnName="EvaluatedBy" />
+                <ScalarProperty Name="EvaluatedAt" ColumnName="EvaluatedAt" />
+                <ScalarProperty Name="SubmittedBy" ColumnName="SubmittedBy" />
+                <ScalarProperty Name="SubmittedAt" ColumnName="SubmittedAt" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="OfficialSpecsUrl" ColumnName="OfficialSpecsUrl" />
+                <ScalarProperty Name="GuaranteeYears" ColumnName="GuaranteeYears" />
+                <ScalarProperty Name="OperatingSystem" ColumnName="OperatingSystem" />
+                <ScalarProperty Name="StorageSize" ColumnName="StorageSize" />
+                <ScalarProperty Name="RamSize" ColumnName="RamSize" />
+                <ScalarProperty Name="ScreenResolutionY" ColumnName="ScreenResolutionY" />
+                <ScalarProperty Name="ScreenResolutionX" ColumnName="ScreenResolutionX" />
+                <ScalarProperty Name="ScreenSize" ColumnName="ScreenSize" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+                <ScalarProperty Name="OfferUrl" ColumnName="OfferUrl" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
+                <ScalarProperty Name="OfferStatusInt" ColumnName="OfferStatus" />
+                <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OfferLogs">
+            <EntityTypeMapping TypeName="DBEntitiesModel.OfferLog">
+              <MappingFragment StoreEntitySet="OfferLog">
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="NewValuesXml" ColumnName="NewValues" />
+                <ScalarProperty Name="OldValuesXml" ColumnName="OldValues" />
+                <ScalarProperty Name="NewStatusInt" ColumnName="NewStatus" />
+                <ScalarProperty Name="OldStatusInt" ColumnName="OldStatus" />
+                <ScalarProperty Name="OfferID" ColumnName="OfferID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="GetStoreOfferCounters" FunctionName="DBEntitiesModel.Store.sp_GetStoreOfferCounters">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="DBEntitiesModel.StoreOfferCounters">
+                <ScalarProperty Name="TotalCount" ColumnName="TotalCount" />
+                <ScalarProperty Name="CreatedCount" ColumnName="CreatedCount" />
+                <ScalarProperty Name="SubmittedCount" ColumnName="SubmittedCount" />
+                <ScalarProperty Name="ApprovedCount" ColumnName="ApprovedCount" />
+                <ScalarProperty Name="AcceptedCount" ColumnName="AcceptedCount" />
+                <ScalarProperty Name="PublishedCount" ColumnName="PublishedCount" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="Banks">
+            <EntityTypeMapping TypeName="DBEntitiesModel.Bank">
+              <MappingFragment StoreEntitySet="Bank">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="DBEntities" ZoomLevel="65">
+        <EntityTypeShape EntityType="DBEntitiesModel.City" Width="1.75" PointX="6" PointY="9.625" Height="2.085348307291671" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBEntitiesModel.Prefecture" Width="1.5" PointX="6" PointY="12.25" Height="2.2496956380208353" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBEntitiesModel.Region" Width="1.5" PointX="6" PointY="15.125" Height="1.4279589843749994" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBEntitiesModel.Reporter" Width="2.375" PointX="11" PointY="7.375" Height="6.1940315755208335" IsExpanded="true" />
+        <AssociationConnector Association="DBEntitiesModel.FK_Kap_Cities_Kap_Prefectures" ManuallyRouted="false">
+          <ConnectorPoint PointX="14.3437475" PointY="29" />
+          <ConnectorPoint PointX="14.3437475" PointY="28.907084960937503" />
+        </AssociationConnector>
+        <AssociationConnector Association="DBEntitiesModel.FK_Kap_Prefectures_Kap_Regions" ManuallyRouted="false">
+          <ConnectorPoint PointX="13.625" PointY="32.5889794921875" />
+          <ConnectorPoint PointX="13.427083333333334" PointY="32.5889794921875" />
+          <ConnectorPoint PointX="13.260416666666666" PointY="32.5889794921875" />
+          <ConnectorPoint PointX="13.25" PointY="32.5889794921875" />
+          <ConnectorPoint PointX="13.25" PointY="31.554558571459285" />
+          <ConnectorPoint PointX="13.260416666666666" PointY="31.554558571459285" />
+          <ConnectorPoint PointX="13.427083333333334" PointY="31.554558571459285" />
+          <ConnectorPoint PointX="13.625" PointY="31.554558571459285" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="DBEntitiesModel.Role" Width="1.5" PointX="11.375" PointY="5.125" Height="1.427958984374996" />
+        <AssociationConnector Association="DBEntitiesModel.UsersInRoles">
+          <ConnectorPoint PointX="12" PointY="12.893229980468748" />
+          <ConnectorPoint PointX="12.216666666666667" PointY="12.893229980468748" />
+          <ConnectorPoint PointX="12.383333333333335" PointY="12.893229980468748" />
+          <ConnectorPoint PointX="15.666666666666666" PointY="12.893229980468748" />
+          <ConnectorPoint PointX="15.833333333333334" PointY="12.893229980468748" />
+          <ConnectorPoint PointX="16" PointY="12.893229980468748" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="DBEntitiesModel.VerificationLog" Width="2.625" PointX="14.75" PointY="14" Height="2.0853483072916674" />
+        <AssociationConnector Association="DBEntitiesModel.FK_VerificationLog_Reporter">
+          <ConnectorPoint PointX="10.34375" PointY="18.244894205729167" />
+          <ConnectorPoint PointX="10.34375" PointY="40.917674153645834" />
+          <ConnectorPoint PointX="13.25" PointY="40.917674153645834" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="DBEntitiesModel.Address" Width="1.5" PointX="8.5" PointY="9.625" />
+        <AssociationConnector Association="DBEntitiesModel.FK_Address_Kali_Cities" ManuallyRouted="false">
+        </AssociationConnector>
+        <AssociationConnector Association="DBEntitiesModel.FK_Address_Kali_Prefectures" />
+        <EntityTypeShape EntityType="DBEntitiesModel.Email" Width="2" PointX="8.375" PointY="5" />
+        <EntityTypeShape EntityType="DBEntitiesModel.QueueEntry" Width="2" PointX="1.375" PointY="7.75" />
+        <EntityTypeShape EntityType="DBEntitiesModel.SMS" Width="1.875" PointX="6.125" PointY="5" />
+        <AssociationConnector Association="DBEntitiesModel.FK_EmailLog_Reporter" />
+        <AssociationConnector Association="DBEntitiesModel.FK_SmsLog_Reporter" />
+        <AssociationConnector Association="DBEntitiesModel.FK_Reporter_Address" />
+        <EntityTypeShape EntityType="DBEntitiesModel.ApplicationRule" Width="1.625" PointX="1.625" PointY="5.125" />
+        <EntityTypeShape EntityType="DBEntitiesModel.TaskLastRunTime" Width="1.75" PointX="1.5" PointY="11.125" />
+        <EntityTypeShape EntityType="DBEntitiesModel.Tag" Width="1.5" PointX="22.125" PointY="8" />
+        <EntityTypeShape EntityType="DBEntitiesModel.Store" Width="2.75" PointX="14.75" PointY="7.25" />
+        <AssociationConnector Association="DBEntitiesModel.FK_Store_Reporter" />
+        <EntityTypeShape EntityType="DBEntitiesModel.Offer" Width="2.5" PointX="18.375" PointY="7.25" />
+        <EntityTypeShape EntityType="DBEntitiesModel.OfferLog" Width="1.5" PointX="22.25" PointY="10.875" />
+        <AssociationConnector Association="DBEntitiesModel.FK_Offer_Store" />
+        <AssociationConnector Association="DBEntitiesModel.FK_OfferLog_Offer" />
+        <EntityTypeShape EntityType="DBEntitiesModel.Bank" Width="1.5" PointX="15.25" PointY="5" />
+        <AssociationConnector Association="DBEntitiesModel.FK_Store_Bank" />
+        </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

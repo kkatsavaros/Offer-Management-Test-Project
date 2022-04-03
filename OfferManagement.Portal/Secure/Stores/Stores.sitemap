@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Secure/Stores" title="Default" roles="Store">
+        <siteMapNode url="~/Secure/Stores/Default.aspx" title="Αρχική" roles="Store" />
+        <siteMapNode url="~/Secure/Stores/StoreDetails.aspx" title="Στοιχεία Προμηθευτή" roles="Store" />
+        <siteMapNode url="~/Secure/Stores/AccountDetails.aspx" title="Στοιχεία Λογαριασμού" roles="Store" />
+        <siteMapNode url="~/Secure/Stores/Offers.aspx" title="Προσφορές" roles="Store" />        
+    </siteMapNode>
+</siteMap>

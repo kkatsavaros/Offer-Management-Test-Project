@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Mails>
+
+  <Mail Category="StoreEmailVerification">
+    <Subject>
+      <![CDATA[Επιβεβαίωση e-mail λογαριασμού προμηθευτή]]>
+    </Subject>
+    <Body>
+      <![CDATA[
+Προς χρήστη %USERNAME% του προμηθευτή %STORENAME% της δράσης,
+
+Σας ευχαριστούμε για την εγγραφή σας στη δράση.
+
+Για να επιβεβαιώσετε το email που έχετε δηλώσει για το λογαριασμό σας, επιλέξτε τον υπερσύνδεσμο που ακολουθεί:
+
+%LINK%]]>
+    </Body>
+  </Mail>
+
+  <Mail Category="ForgotPassword">
+    <Subject>
+      <![CDATA[Νέος Κωδικός Πρόσβασης]]>
+    </Subject>
+    <Body>
+      <![CDATA[      
+Προς χρήστη %USERNAME% της δράσης,
+
+Ο νέος κωδικός πρόσβασης είναι %PASSWORD%
+
+
+Σημειώνεται ότι μετά την πρώτη σύνδεσή σας στην εφαρμογή θα πρέπει για λόγους ασφαλείας να τον αλλάξετε.]]>
+    </Body>
+  </Mail>
+
+  <Mail Category="CustomMessage">
+    <Subject>
+      <![CDATA[%SUBJECT%]]>
+    </Subject>
+    <Body>
+      <![CDATA[
+%MESSAGE%]]>
+    </Body>
+  </Mail>
+
+
+  <Footer>
+    <![CDATA[
+
+
+ΠΡΟΣΟΧΗ:
+Το email αυτό σας αποστέλλεται από το Online HelpDesk της Δράσης
+Παρακαλούμε MHN απαντήσετε σε αυτό το email.
+    ]]>
+  </Footer>
+</Mails>

@@ -1,0 +1,16 @@
+﻿<%@ Master MasterPageFile="~/Portal.Master" Language="C#" AutoEventWireup="true" Inherits="OfferManagement.Portal.Common.Common" CodeBehind="Common.master.cs" %>
+
+<%@ Import Namespace="OfferManagement.BusinessModel" %>
+<%@ Import Namespace="OfferManagement.Portal" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="cpHelpBar">
+    <div id="primary-menu">
+        <ul>
+            <li><a class="home" href='/Default.aspx'>Αρχική Σελίδα</a></li>            
+        </ul>
+    </div>
+</asp:Content>
+
+<asp:Content runat="server" ContentPlaceHolderID="cphMain">
+    <asp:ContentPlaceHolder ID="cphCommonMain" runat="server" />
+</asp:Content>

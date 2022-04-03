@@ -1,0 +1,147 @@
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csprojAssemblyReference.cache
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CoreCompileInputs.cache
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\_rdlc\StoreCertification.rdlc
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.Portal.dll.config
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.Portal.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.Portal.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\BotDetect.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Data.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Office.v14.2.Core.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Printing.v14.2.Core.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.RichEdit.v14.2.Core.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.SpellChecker.v14.2.Core.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Utils.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxHtmlEditor.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxRichEdit.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxSpellChecker.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxThemes.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxTreeList.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.XtraPrinting.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Imis.Domain.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Imis.Domain.EF.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Imis.Web.Controls.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Imis.Web.Utils.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\log4net.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Microsoft.ReportViewer.WebForms.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Microsoft.Web.Infrastructure.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Newtonsoft.Json.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.Utils.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.XtraEditors.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.XtraBars.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.XtraTreeList.v14.2.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Microsoft.ReportViewer.Common.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Sparkline.v14.2.Core.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.BusinessModel.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll.config
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\OfferManagement.Utils.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Data.v14.2.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Office.v14.2.Core.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Printing.v14.2.Core.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.RichEdit.v14.2.Core.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Utils.v14.2.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxHtmlEditor.v14.2.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxRichEdit.v14.2.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxSpellChecker.v14.2.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.ASPxTreeList.v14.2.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Web.v14.2.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.XtraPrinting.v14.2.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Imis.Domain.pdb
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\log4net.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Microsoft.ReportViewer.WebForms.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\Microsoft.Web.Infrastructure.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\bin\DevExpress.Sparkline.v14.2.Core.xml
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CopyComplete
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.dll
+K:\Source\Workspaces\ipsyp\OfferManagement_Simple\OfferManagement\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csprojAssemblyReference.cache
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\_rdlc\StoreCertification.rdlc
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.Portal.dll.config
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.Portal.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.Portal.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\Newtonsoft.Json.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.Utils.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.BusinessModel.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll.config
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\OfferManagement.Utils.pdb
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CoreCompileInputs.cache
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CopyComplete
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.dll
+C:\Users\georg\OneDrive\Documents\Visual Studio 2017\Projects\OfferManagementAG\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\_rdlc\StoreCertification.rdlc
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.Portal.dll.config
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.Portal.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.Portal.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\Newtonsoft.Json.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.Utils.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.BusinessModel.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll.config
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\bin\OfferManagement.Utils.pdb
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.AssemblyReference.cache
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CoreCompileInputs.cache
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CopyComplete
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.dll
+C:\Users\kkats\Desktop\offer management new 13-03-2022\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.pdb
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\_rdlc\StoreCertification.rdlc
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.dll.config
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.dll
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.pdb
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\Newtonsoft.Json.dll
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Utils.dll
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.pdb
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll.config
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Utils.pdb
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.AssemblyReference.cache
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CoreCompileInputs.cache
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CopyComplete
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.dll
+C:\Users\kkats\Documents\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\_rdlc\StoreCertification.rdlc
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.dll.config
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\Newtonsoft.Json.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Utils.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll.config
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Utils.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.AssemblyReference.cache
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CoreCompileInputs.cache
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CopyComplete
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\_rdlc\StoreCertification.rdlc
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.dll.config
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Portal.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\Newtonsoft.Json.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Utils.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.Flow.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.BusinessModel.dll.config
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\bin\OfferManagement.Utils.pdb
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.AssemblyReference.cache
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CoreCompileInputs.cache
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.csproj.CopyComplete
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.dll
+C:\Users\kkats\Documents\OfferManagement_22.03.2002 + Search +Description\offer management new 13-03-2022 backup\OfferManagement.Portal\obj\Debug\OfferManagement.Portal.pdb

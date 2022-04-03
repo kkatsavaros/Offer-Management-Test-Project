@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82248BAB-C2C1-4E3A-9713-3220A27258DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OfferManagement.BusinessModel</RootNamespace>
+    <AssemblyName>OfferManagement.BusinessModel</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>http://localhost/HelpDesk.BusinessModel/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Ifestion|AnyCPU'">
+    <OutputPath>bin\Ifestion\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\HelpDesk.BusinessModel.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\Desktop\OfferManagement_support_files\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Imis.Domain">
+      <HintPath>..\OfferManagement.Portal\bin\Imis.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Imis.Domain.EF">
+      <HintPath>..\OfferManagement.Portal\bin\Imis.Domain.EF.dll</HintPath>
+    </Reference>
+    <Reference Include="Imis.Web.Utils">
+      <HintPath>..\..\..\Desktop\OfferManagement_support_files\bin\Imis.Web.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\libraries\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth\AuthenticationService.cs" />
+    <Compile Include="Auth\OfferManagementPrincipal.cs" />
+    <Compile Include="Auth\UserTicketData.cs" />
+    <Compile Include="Caching\ArmyLaptopsCacheManager.cs" />
+    <Compile Include="Classes\Helpers\BusinessHelper.cs" />
+    <Compile Include="Classes\ChangeSet.cs" />
+    <Compile Include="Classes\Config.cs" />
+    <Compile Include="Classes\Configuration\CachingConfiguration.cs" />
+    <Compile Include="Classes\DOY.cs" />
+    <Compile Include="Classes\Extensions.cs" />
+    <Compile Include="Classes\Factory\EmailFactory.cs" />
+    <Compile Include="Classes\Factory\SMSFactory.cs" />
+    <Compile Include="Classes\Factory\UnitOfWorkFactory.cs" />
+    <Compile Include="Classes\Helpers\CodeGenerationHelper.cs" />
+    <Compile Include="Classes\Helpers\OfferHelper.cs" />
+    <Compile Include="Classes\Helpers\RequestHelper.cs" />
+    <Compile Include="Classes\Helpers\ValidationHelper.cs" />
+    <Compile Include="Classes\IdentificationDetails.cs" />
+    <Compile Include="Classes\MinimumSpecs.cs" />
+    <Compile Include="Classes\OfferChangeValues.cs" />
+    <Compile Include="Classes\OfferDetails.cs" />
+    <Compile Include="Classes\PropertyAccessor.cs" />
+    <Compile Include="Classes\PropertyChange.cs" />
+    <Compile Include="Classes\SearchFilters\BaseSearchFilters.cs" />
+    <Compile Include="Classes\SearchFilters\OfferSearchFilters.cs" />
+    <Compile Include="Classes\Serializer.cs" />
+    <Compile Include="Classes\TagManager.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DBEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DBEntities1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Email.cs" />
+    <Compile Include="Entities\Offer.cs" />
+    <Compile Include="Entities\OfferLog.cs" />
+    <Compile Include="Entities\QueueEntry.cs" />
+    <Compile Include="Entities\ApplicationRule.cs" />
+    <Compile Include="Entities\Store.cs" />
+    <Compile Include="Entities\Tag.cs" />
+    <Compile Include="Entities\VerificationLog.cs" />
+    <Compile Include="Enums\enCompanyType.cs" />
+    <Compile Include="Enums\enDeliveryStatus.cs" />
+    <Compile Include="Enums\enEmailEntityType.cs" />
+    <Compile Include="Enums\enEmailType.cs" />
+    <Compile Include="Enums\enIBANValidationResult.cs" />
+    <Compile Include="Enums\enIdentificationType.cs" />
+    <Compile Include="Enums\enLaptopColor.cs" />
+    <Compile Include="Enums\enOfferStatus.cs" />
+    <Compile Include="Enums\enQueueEntryPriority.cs" />
+    <Compile Include="Enums\enQueueEntryStatus.cs" />
+    <Compile Include="Enums\enQueueEntryType.cs" />
+    <Compile Include="Enums\enReporterDeclarationType.cs" />
+    <Compile Include="Enums\enTagType.cs" />
+    <Compile Include="Enums\enVerificationStatus.cs" />
+    <Compile Include="Extensions\XmlSerializer.cs" />
+    <Compile Include="Interfaces\IDeliverableItem.cs" />
+    <Compile Include="Interfaces\ITrackable.cs" />
+    <Compile Include="Queue\EmailQueueWorker.cs" />
+    <Compile Include="Queue\QueueData.cs" />
+    <Compile Include="Queue\QueueEntrySettings.cs" />
+    <Compile Include="Queue\QueueWorkerBase.cs" />
+    <Compile Include="Queue\SmsQueueWorker.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\EmailRepository.cs" />
+    <Compile Include="Repositories\OfferRepository.cs" />
+    <Compile Include="Repositories\PrefectureRepository.cs" />
+    <Compile Include="Repositories\QueueEntryRepository.cs" />
+    <Compile Include="Repositories\ApplicationRuleRepository.cs" />
+    <Compile Include="Repositories\RoleRepository.cs" />
+    <Compile Include="Entities\DBEntities.cs" />
+    <Compile Include="Entities\Reporter.cs" />
+    <Compile Include="Entities\SMS.cs" />
+    <Compile Include="Enums\enReporterType.cs" />
+    <Compile Include="Enums\enSMSStatus.cs" />
+    <Compile Include="Enums\enSMSType.cs" />
+    <Compile Include="Enums\EnumExtensions.cs" />
+    <Compile Include="Interfaces\IUserChangeTracking.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ReporterRepository.cs" />
+    <Compile Include="Repositories\SmsRepository.cs" />
+    <Compile Include="Repositories\StoreRepository.cs" />
+    <Compile Include="Repositories\TagRepository.cs" />
+    <Compile Include="Repositories\TaskLastRunTimeRepository.cs" />
+    <Compile Include="Repositories\VerificationLogRepository.cs" />
+    <Compile Include="Resources\Labels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\Criteria.cs" />
+    <Compile Include="Search\CriteriaField.cs" />
+    <Compile Include="Services\ApplicationRuleService.cs" />
+    <Compile Include="Services\MinimumSpecsService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="DBEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DBEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\HelpDeskEntities.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Labels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\DOYs.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OfferManagement.Utils\OfferManagement.Utils.csproj">
+      <Project>{c7b79885-ace3-4574-ac38-aa689981ef15}</Project>
+      <Name>OfferManagement.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DBEntities1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

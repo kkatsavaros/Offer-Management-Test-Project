@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBEntitiesModelStoreContainer" CdmEntityContainer="DBEntities">
+    <EntitySetMapping Name="CitySet">
+      <EntityTypeMapping TypeName="DBEntitiesModel.City">
+        <MappingFragment StoreEntitySet="Kali_Cities">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PrefectureID" ColumnName="PrefectureID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrefectureSet">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Prefecture">
+        <MappingFragment StoreEntitySet="Kali_Prefectures">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegionSet">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Region">
+        <MappingFragment StoreEntitySet="Kali_Regions">
+          <ScalarProperty Name="IsEligible" ColumnName="IsEligible" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reporters">
+      <EntityTypeMapping TypeName="IsTypeOf(DBEntitiesModel.Reporter)">
+        <MappingFragment StoreEntitySet="Reporter">
+          <ScalarProperty Name="VerifiedBy" ColumnName="VerifiedBy" />
+          <ScalarProperty Name="VerifiedAt" ColumnName="VerifiedAt" />
+          <ScalarProperty Name="VerificationNumber" ColumnName="VerificationNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+          <ScalarProperty Name="ReporterTypeInt" ColumnName="ReporterType" />
+          <ScalarProperty Name="OtherDetails" ColumnName="OtherDetails" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="SMSSentCount" ColumnName="SMSSentCount" />
+          <ScalarProperty Name="MobilePhoneVerificationDate" ColumnName="MobilePhoneVerificationDate" />
+          <ScalarProperty Name="MobilePhoneVerificationCode" ColumnName="MobilePhoneVerificationCode" />
+          <ScalarProperty Name="IsMobilePhoneVerified" ColumnName="IsMobilePhoneVerified" />
+          <ScalarProperty Name="EmailVerificationDate" ColumnName="EmailVerificationDate" />
+          <ScalarProperty Name="EmailVerificationCode" ColumnName="EmailVerificationCode" />
+          <ScalarProperty Name="IsEmailVerified" ColumnName="IsEmailVerified" />
+          <ScalarProperty Name="IsContactInfoVerified" ColumnName="IsContactInfoVerified" />
+          <ScalarProperty Name="IsContactInfoCompleted" ColumnName="IsContactInfoCompleted" />
+          <ScalarProperty Name="VerificationDate" ColumnName="VerificationDate" />
+          <ScalarProperty Name="VerificationStatusInt" ColumnName="VerificationStatus" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="MustAcceptTerms" ColumnName="MustAcceptTerms" />
+          <ScalarProperty Name="DeclarationTypeInt" ColumnName="DeclarationType" />
+          <ScalarProperty Name="MustChangePassword" ColumnName="MustChangePassword" />
+          <ScalarProperty Name="CreatedAtDateOnly" ColumnName="CreatedAtDateOnly" />
+          <ScalarProperty Name="ContactMobilePhone" ColumnName="ContactMobilePhone" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+          <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UsersInRoles" TypeName="DBEntitiesModel.UsersInRoles" StoreEntitySet="UsersInRoles">
+      <EndProperty Name="Role">
+        <ScalarProperty Name="ID" ColumnName="RoleID" />
+      </EndProperty>
+      <EndProperty Name="Reporter">
+        <ScalarProperty Name="ID" ColumnName="ReporterID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="VerificationLog">
+      <EntityTypeMapping TypeName="DBEntitiesModel.VerificationLog">
+        <MappingFragment StoreEntitySet="VerificationLog">
+          <ScalarProperty Name="VerificationNumber" ColumnName="VerificationNumber" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="NewVerificationStatusInt" ColumnName="NewVerificationStatus" />
+          <ScalarProperty Name="OldVerificationStatusInt" ColumnName="OldVerificationStatus" />
+          <ScalarProperty Name="ReporterID" ColumnName="ReporterID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Address">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Address">
+        <MappingFragment StoreEntitySet="Address">
+          <ScalarProperty Name="FullAddress" ColumnName="FullAddress" />
+          <ScalarProperty Name="Longtitude" ColumnName="Longtitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="PrefectureID" ColumnName="PrefectureID" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="AddressName" ColumnName="AddressName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailLog">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Email">
+        <MappingFragment StoreEntitySet="EmailLog">
+          <ScalarProperty Name="LastAttemptAt" ColumnName="LastAttemptAt" />
+          <ScalarProperty Name="EntityID" ColumnName="EntityID" />
+          <ScalarProperty Name="EmailEntityTypeInt" ColumnName="EmailEntityType" />
+          <ScalarProperty Name="DeliveryStatusInt" ColumnName="DeliveryStatus" />
+          <ScalarProperty Name="SentAt" ColumnName="SentAt" />
+          <ScalarProperty Name="Body" ColumnName="Body" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="CCedEmailAddresses" ColumnName="CCedEmailAddresses" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="SenderEmailAddress" ColumnName="SenderEmailAddress" />
+          <ScalarProperty Name="TypeInt" ColumnName="Type" />
+          <ScalarProperty Name="ReporterID" ColumnName="ReporterID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QueueEntry">
+      <EntityTypeMapping TypeName="DBEntitiesModel.QueueEntry">
+        <MappingFragment StoreEntitySet="QueueEntry">
+          <ScalarProperty Name="RetryDataXml" ColumnName="RetryData" />
+          <ScalarProperty Name="LastAttemptAt" ColumnName="LastAttemptAt" />
+          <ScalarProperty Name="QueueDataXml" ColumnName="QueueDataXml" />
+          <ScalarProperty Name="QueueEntryPriorityInt" ColumnName="QueueEntryPriority" />
+          <ScalarProperty Name="QueueEntryStatusInt" ColumnName="QueueEntryStatus" />
+          <ScalarProperty Name="QueueEntryTypeInt" ColumnName="QueueEntryType" />
+          <ScalarProperty Name="RetryInterval" ColumnName="RetryInterval" />
+          <ScalarProperty Name="MaxNumberOfRetries" ColumnName="MaxNumberOfRetries" />
+          <ScalarProperty Name="NumberOfRetries" ColumnName="NumberOfRetries" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SmsLog">
+      <EntityTypeMapping TypeName="DBEntitiesModel.SMS">
+        <MappingFragment StoreEntitySet="SmsLog">
+          <ScalarProperty Name="LastAttemptAt" ColumnName="LastAttemptAt" />
+          <ScalarProperty Name="EntityID" ColumnName="EntityID" />
+          <ScalarProperty Name="DeliveryStatusInt" ColumnName="DeliveryStatus" />
+          <ScalarProperty Name="SentAt" ColumnName="SentAt" />
+          <ScalarProperty Name="FieldValuesInternal" ColumnName="FieldValues" />
+          <ScalarProperty Name="Msg" ColumnName="Msg" />
+          <ScalarProperty Name="ReporterNumber" ColumnName="ReporterNumber" />
+          <ScalarProperty Name="SendID" ColumnName="SendID" />
+          <ScalarProperty Name="TypeInt" ColumnName="Type" />
+          <ScalarProperty Name="ReporterID" ColumnName="ReporterID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ApplicationRules">
+      <EntityTypeMapping TypeName="DBEntitiesModel.ApplicationRule">
+        <MappingFragment StoreEntitySet="ApplicationRule">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="EnabledTo" ColumnName="EnabledTo" />
+          <ScalarProperty Name="EnabledFrom" ColumnName="EnabledFrom" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskLastRunTimes">
+      <EntityTypeMapping TypeName="DBEntitiesModel.TaskLastRunTime">
+        <MappingFragment StoreEntitySet="TaskLastRunTime">
+          <ScalarProperty Name="LastRunTime" ColumnName="LastRunTime" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Tag">
+        <MappingFragment StoreEntitySet="Tag">
+          <ScalarProperty Name="TagTypeInt" ColumnName="TagType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stores">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Store">
+        <MappingFragment StoreEntitySet="Store">
+          <ScalarProperty Name="HasPublishedOffers" ColumnName="HasPublishedOffers" />
+          <ScalarProperty Name="IBAN" ColumnName="IBAN" />
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+          <ScalarProperty Name="CompanyTypeInt" ColumnName="CompanyType" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="DOY" ColumnName="DOY" />
+          <ScalarProperty Name="AFM" ColumnName="AFM" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Offers">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Offer">
+        <MappingFragment StoreEntitySet="Offer">
+          <ScalarProperty Name="IsLaptopCaseIncluded" ColumnName="IsLaptopCaseIncluded" />
+          <ScalarProperty Name="ColorInt" ColumnName="Color" />
+          <ScalarProperty Name="IsWiFi80211acCompliant" ColumnName="IsWiFi80211acCompliant" />
+          <ScalarProperty Name="HdmiCount" ColumnName="HdmiCount" />
+          <ScalarProperty Name="UsbCount" ColumnName="UsbCount" />
+          <ScalarProperty Name="CpuSpeed" ColumnName="CpuSpeed" />
+          <ScalarProperty Name="Cpu" ColumnName="Cpu" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedAtDateOnly" ColumnName="CreatedAtDateOnly" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="EvaluationComments" ColumnName="EvaluationComments" />
+          <ScalarProperty Name="EvaluatedBy" ColumnName="EvaluatedBy" />
+          <ScalarProperty Name="EvaluatedAt" ColumnName="EvaluatedAt" />
+          <ScalarProperty Name="SubmittedBy" ColumnName="SubmittedBy" />
+          <ScalarProperty Name="SubmittedAt" ColumnName="SubmittedAt" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="OfficialSpecsUrl" ColumnName="OfficialSpecsUrl" />
+          <ScalarProperty Name="GuaranteeYears" ColumnName="GuaranteeYears" />
+          <ScalarProperty Name="OperatingSystem" ColumnName="OperatingSystem" />
+          <ScalarProperty Name="StorageSize" ColumnName="StorageSize" />
+          <ScalarProperty Name="RamSize" ColumnName="RamSize" />
+          <ScalarProperty Name="ScreenResolutionY" ColumnName="ScreenResolutionY" />
+          <ScalarProperty Name="ScreenResolutionX" ColumnName="ScreenResolutionX" />
+          <ScalarProperty Name="ScreenSize" ColumnName="ScreenSize" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="OfferUrl" ColumnName="OfferUrl" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="OfferStatusInt" ColumnName="OfferStatus" />
+          <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OfferLogs">
+      <EntityTypeMapping TypeName="DBEntitiesModel.OfferLog">
+        <MappingFragment StoreEntitySet="OfferLog">
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="NewValuesXml" ColumnName="NewValues" />
+          <ScalarProperty Name="OldValuesXml" ColumnName="OldValues" />
+          <ScalarProperty Name="NewStatusInt" ColumnName="NewStatus" />
+          <ScalarProperty Name="OldStatusInt" ColumnName="OldStatus" />
+          <ScalarProperty Name="OfferID" ColumnName="OfferID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetStoreOfferCounters" FunctionName="DBEntitiesModel.Store.sp_GetStoreOfferCounters">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBEntitiesModel.StoreOfferCounters">
+          <ScalarProperty Name="TotalCount" ColumnName="TotalCount" />
+          <ScalarProperty Name="CreatedCount" ColumnName="CreatedCount" />
+          <ScalarProperty Name="SubmittedCount" ColumnName="SubmittedCount" />
+          <ScalarProperty Name="ApprovedCount" ColumnName="ApprovedCount" />
+          <ScalarProperty Name="AcceptedCount" ColumnName="AcceptedCount" />
+          <ScalarProperty Name="PublishedCount" ColumnName="PublishedCount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="Banks">
+      <EntityTypeMapping TypeName="DBEntitiesModel.Bank">
+        <MappingFragment StoreEntitySet="Bank">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

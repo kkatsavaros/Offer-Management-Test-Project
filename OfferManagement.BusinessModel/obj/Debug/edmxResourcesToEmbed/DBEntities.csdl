@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBEntitiesModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <EntitySet Name="CitySet" EntityType="DBEntitiesModel.City" />
+    <EntitySet Name="PrefectureSet" EntityType="DBEntitiesModel.Prefecture" />
+    <EntitySet Name="RegionSet" EntityType="DBEntitiesModel.Region" />
+    <EntitySet Name="Reporters" EntityType="DBEntitiesModel.Reporter" />
+    <AssociationSet Name="FK_Kap_Cities_Kap_Prefectures" Association="DBEntitiesModel.FK_Kap_Cities_Kap_Prefectures">
+      <End Role="Kali_Prefectures" EntitySet="PrefectureSet" />
+      <End Role="Kali_Cities" EntitySet="CitySet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kap_Prefectures_Kap_Regions" Association="DBEntitiesModel.FK_Kap_Prefectures_Kap_Regions">
+      <End Role="Kali_Regions" EntitySet="RegionSet" />
+      <End Role="Kali_Prefectures" EntitySet="PrefectureSet" />
+    </AssociationSet>
+    <EntitySet Name="Roles" EntityType="DBEntitiesModel.Role" />
+    <AssociationSet Name="UsersInRoles" Association="DBEntitiesModel.UsersInRoles">
+      <End Role="Reporter" EntitySet="Reporters" />
+      <End Role="Role" EntitySet="Roles" />
+    </AssociationSet>
+    <EntitySet Name="VerificationLog" EntityType="DBEntitiesModel.VerificationLog" />
+    <AssociationSet Name="FK_VerificationLog_Reporter" Association="DBEntitiesModel.FK_VerificationLog_Reporter">
+      <End Role="Reporter" EntitySet="Reporters" />
+      <End Role="VerificationLog" EntitySet="VerificationLog" />
+    </AssociationSet>
+    <EntitySet Name="Address" EntityType="DBEntitiesModel.Address" />
+    <AssociationSet Name="FK_Address_Kali_Cities" Association="DBEntitiesModel.FK_Address_Kali_Cities">
+      <End Role="City" EntitySet="CitySet" />
+      <End Role="Address" EntitySet="Address" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Address_Kali_Prefectures" Association="DBEntitiesModel.FK_Address_Kali_Prefectures">
+      <End Role="Prefecture" EntitySet="PrefectureSet" />
+      <End Role="Address" EntitySet="Address" />
+    </AssociationSet>
+    <EntitySet Name="EmailLog" EntityType="DBEntitiesModel.Email" />
+    <EntitySet Name="QueueEntry" EntityType="DBEntitiesModel.QueueEntry" />
+    <EntitySet Name="SmsLog" EntityType="DBEntitiesModel.SMS" />
+    <AssociationSet Name="FK_EmailLog_Reporter" Association="DBEntitiesModel.FK_EmailLog_Reporter">
+      <End Role="Reporter" EntitySet="Reporters" />
+      <End Role="EmailLog" EntitySet="EmailLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SmsLog_Reporter" Association="DBEntitiesModel.FK_SmsLog_Reporter">
+      <End Role="Reporter" EntitySet="Reporters" />
+      <End Role="SmsLog" EntitySet="SmsLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reporter_Address" Association="DBEntitiesModel.FK_Reporter_Address">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="Reporter" EntitySet="Reporters" />
+    </AssociationSet>
+    <EntitySet Name="ApplicationRules" EntityType="DBEntitiesModel.ApplicationRule" />
+    <EntitySet Name="TaskLastRunTimes" EntityType="DBEntitiesModel.TaskLastRunTime" />
+    <EntitySet Name="Tags" EntityType="DBEntitiesModel.Tag" />
+    <EntitySet Name="Stores" EntityType="DBEntitiesModel.Store" />
+    <AssociationSet Name="FK_Store_Reporter" Association="DBEntitiesModel.FK_Store_Reporter">
+      <End Role="Reporter" EntitySet="Reporters" />
+      <End Role="Store" EntitySet="Stores" />
+    </AssociationSet>
+    <EntitySet Name="Offers" EntityType="DBEntitiesModel.Offer" />
+    <EntitySet Name="OfferLogs" EntityType="DBEntitiesModel.OfferLog" />
+    <AssociationSet Name="FK_Offer_Store" Association="DBEntitiesModel.FK_Offer_Store">
+      <End Role="Store" EntitySet="Stores" />
+      <End Role="Offer" EntitySet="Offers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OfferLog_Offer" Association="DBEntitiesModel.FK_OfferLog_Offer">
+      <End Role="Offer" EntitySet="Offers" />
+      <End Role="OfferLog" EntitySet="OfferLogs" />
+    </AssociationSet>
+    <FunctionImport Name="GetStoreOfferCounters" ReturnType="Collection(DBEntitiesModel.StoreOfferCounters)">
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateStoreBrowse" />
+    <EntitySet Name="Banks" EntityType="DBEntitiesModel.Bank" />
+    <AssociationSet Name="FK_Store_Bank" Association="DBEntitiesModel.FK_Store_Bank">
+      <End Role="Bank" EntitySet="Banks" />
+      <End Role="Store" EntitySet="Stores" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="PrefectureID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Prefectures" Relationship="DBEntitiesModel.FK_Kap_Cities_Kap_Prefectures" FromRole="Kali_Cities" ToRole="Kali_Prefectures" />
+    <NavigationProperty Name="Addresses" Relationship="DBEntitiesModel.FK_Address_Kali_Cities" FromRole="City" ToRole="Address" />
+  </EntityType>
+  <EntityType Name="Prefecture">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="RegionID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cities" Relationship="DBEntitiesModel.FK_Kap_Cities_Kap_Prefectures" FromRole="Kali_Prefectures" ToRole="Kali_Cities" />
+    <NavigationProperty Name="Regions" Relationship="DBEntitiesModel.FK_Kap_Prefectures_Kap_Regions" FromRole="Kali_Prefectures" ToRole="Kali_Regions" />
+    <NavigationProperty Name="Addresses" Relationship="DBEntitiesModel.FK_Address_Kali_Prefectures" FromRole="Prefecture" ToRole="Address" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Prefectures" Relationship="DBEntitiesModel.FK_Kap_Prefectures_Kap_Regions" FromRole="Kali_Regions" ToRole="Kali_Prefectures" />
+    <Property Type="Boolean" Name="IsEligible" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reporter" Abstract="false">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="ReporterTypeInt" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="DeclarationTypeInt" Type="Int32" Nullable="false" />
+    <Property Name="ContactName" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="ContactPhone" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ContactMobilePhone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="ContactEmail" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="OtherDetails" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="256" Unicode="true" FixedLength="false" Nullable="false" />
+    <Property Name="MustAcceptTerms" Type="Boolean" Nullable="false" />
+    <Property Name="MustChangePassword" Type="Boolean" Nullable="false" />
+    <Property Name="IsContactInfoCompleted" Type="Boolean" Nullable="true" />
+    <Property Name="IsContactInfoVerified" Type="Boolean" Nullable="true" annotation:StoreGeneratedPattern="Computed" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="IsEmailVerified" Type="Boolean" Nullable="true" />
+    <Property Name="EmailVerificationCode" Type="String" Nullable="true" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailVerificationDate" Type="DateTime" Nullable="true" Precision="7" />
+    <Property Name="IsMobilePhoneVerified" Type="Boolean" Nullable="true" />
+    <Property Name="MobilePhoneVerificationCode" Type="String" Nullable="true" MaxLength="8" FixedLength="false" Unicode="true" />
+    <Property Name="MobilePhoneVerificationDate" Type="DateTime" Nullable="true" Precision="7" />
+    <Property Name="SMSSentCount" Type="Int32" Nullable="true" />
+    <Property Name="VerificationStatusInt" Type="Int32" />
+    <Property Name="VerificationDate" Type="DateTime" Precision="7" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="CreatedAtDateOnly" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="7" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Roles" Relationship="DBEntitiesModel.UsersInRoles" FromRole="Reporter" ToRole="Role" />
+    <NavigationProperty Name="VerificationLog" Relationship="DBEntitiesModel.FK_VerificationLog_Reporter" FromRole="Reporter" ToRole="VerificationLog" />
+    <NavigationProperty Name="Emails" Relationship="DBEntitiesModel.FK_EmailLog_Reporter" FromRole="Reporter" ToRole="EmailLog" />
+    <NavigationProperty Name="SMSs" Relationship="DBEntitiesModel.FK_SmsLog_Reporter" FromRole="Reporter" ToRole="SmsLog" />
+    <Property Type="Int32" Name="AddressID" />
+    <NavigationProperty Name="Address" Relationship="DBEntitiesModel.FK_Reporter_Address" FromRole="Reporter" ToRole="Address" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Store" Relationship="DBEntitiesModel.FK_Store_Reporter" FromRole="Reporter" ToRole="Store" />
+    <Property Name="VerificationNumber" Type="Int32" />
+    <Property Name="VerifiedAt" Type="DateTime" Precision="7" />
+    <Property Name="VerifiedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Kap_Cities_Kap_Prefectures">
+    <End Role="Kali_Prefectures" Type="DBEntitiesModel.Prefecture" Multiplicity="1" />
+    <End Role="Kali_Cities" Type="DBEntitiesModel.City" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kali_Prefectures">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Kali_Cities">
+        <PropertyRef Name="PrefectureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kap_Prefectures_Kap_Regions">
+    <End Role="Kali_Regions" Type="DBEntitiesModel.Region" Multiplicity="1" />
+    <End Role="Kali_Prefectures" Type="DBEntitiesModel.Prefecture" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kali_Regions">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Kali_Prefectures">
+        <PropertyRef Name="RegionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="RoleName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Reporters" Relationship="DBEntitiesModel.UsersInRoles" FromRole="Role" ToRole="Reporter" />
+  </EntityType>
+  <Association Name="UsersInRoles">
+    <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="*" />
+    <End Type="DBEntitiesModel.Role" Role="Role" Multiplicity="*" />
+  </Association>
+  <EntityType Name="VerificationLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="ReporterID" Nullable="false" />
+    <Property Type="Int32" Name="OldVerificationStatusInt" Nullable="false" />
+    <Property Type="Int32" Name="NewVerificationStatusInt" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedAt" Nullable="false" Precision="7" />
+    <Property Type="String" Name="CreatedBy" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Reporter" Relationship="DBEntitiesModel.FK_VerificationLog_Reporter" FromRole="VerificationLog" ToRole="Reporter" />
+    <Property Name="VerificationNumber" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_VerificationLog_Reporter">
+    <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="1" />
+    <End Type="DBEntitiesModel.VerificationLog" Role="VerificationLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Reporter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VerificationLog">
+        <PropertyRef Name="ReporterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="AddressName" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ZipCode" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="CityID" />
+    <Property Type="Int32" Name="PrefectureID" />
+    <Property Type="Double" Name="Latitude" />
+    <Property Type="Double" Name="Longtitude" />
+    <NavigationProperty Name="City" Relationship="DBEntitiesModel.FK_Address_Kali_Cities" FromRole="Address" ToRole="City" />
+    <NavigationProperty Name="Prefecture" Relationship="DBEntitiesModel.FK_Address_Kali_Prefectures" FromRole="Address" ToRole="Prefecture" />
+    <Property Type="String" Name="FullAddress" MaxLength="400" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Reporters" Relationship="DBEntitiesModel.FK_Reporter_Address" FromRole="Address" ToRole="Reporter" />
+  </EntityType>
+  <Association Name="FK_Address_Kali_Cities">
+    <End Type="DBEntitiesModel.City" Role="City" Multiplicity="0..1" />
+    <End Type="DBEntitiesModel.Address" Role="Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="CityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Address_Kali_Prefectures">
+    <End Type="DBEntitiesModel.Prefecture" Role="Prefecture" Multiplicity="0..1" />
+    <End Type="DBEntitiesModel.Address" Role="Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Prefecture">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="PrefectureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Email">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="ReporterID" />
+    <Property Type="Int32" Name="TypeInt" Nullable="false" />
+    <Property Type="String" Name="SenderEmailAddress" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmailAddress" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CCedEmailAddresses" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Subject" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Body" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="SentAt" Precision="7" />
+    <Property Type="Int32" Name="DeliveryStatusInt" Nullable="false" />
+    <Property Type="Int32" Name="EmailEntityTypeInt" Nullable="false" />
+    <Property Type="Int32" Name="EntityID" />
+    <Property Type="DateTime" Name="LastAttemptAt" Precision="7" />
+    <NavigationProperty Name="Reporter" Relationship="DBEntitiesModel.FK_EmailLog_Reporter" FromRole="EmailLog" ToRole="Reporter" />
+  </EntityType>
+  <EntityType Name="QueueEntry">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="NumberOfRetries" Nullable="false" />
+    <Property Type="Int32" Name="MaxNumberOfRetries" />
+    <Property Type="Int32" Name="RetryInterval" />
+    <Property Type="Int32" Name="QueueEntryTypeInt" Nullable="false" />
+    <Property Type="Int32" Name="QueueEntryStatusInt" Nullable="false" />
+    <Property Type="Int32" Name="QueueEntryPriorityInt" Nullable="false" />
+    <Property Type="String" Name="QueueDataXml" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="LastAttemptAt" Precision="7" />
+    <Property Type="String" Name="RetryDataXml" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="SMS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="ReporterID" />
+    <Property Type="Int32" Name="TypeInt" Nullable="false" />
+    <Property Type="String" Name="SendID" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ReporterNumber" Nullable="false" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Msg" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="FieldValuesInternal" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="SentAt" Precision="7" />
+    <Property Type="Int32" Name="DeliveryStatusInt" Nullable="false" />
+    <Property Type="Int32" Name="EntityID" />
+    <Property Type="DateTime" Name="LastAttemptAt" Precision="7" />
+    <NavigationProperty Name="Reporter" Relationship="DBEntitiesModel.FK_SmsLog_Reporter" FromRole="SmsLog" ToRole="Reporter" />
+  </EntityType>
+  <Association Name="FK_EmailLog_Reporter">
+    <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="0..1" />
+    <End Type="DBEntitiesModel.Email" Role="EmailLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Reporter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EmailLog">
+        <PropertyRef Name="ReporterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SmsLog_Reporter">
+    <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="0..1" />
+    <End Type="DBEntitiesModel.SMS" Role="SmsLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Reporter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SmsLog">
+        <PropertyRef Name="ReporterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reporter_Address">
+    <End Type="DBEntitiesModel.Address" Role="Address" Multiplicity="0..1" />
+    <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reporter">
+        <PropertyRef Name="AddressID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ApplicationRule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="EnabledFrom" Type="DateTime" Precision="7" />
+    <Property Name="EnabledTo" Type="DateTime" Precision="7" />
+    <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TaskLastRunTime">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="LastRunTime" Type="DateTime" Nullable="false" Precision="7" />
+  </EntityType>
+  <EntityType Name="Tag">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="TagTypeInt" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Store">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="AFM" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="DOY" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Fax" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="URL" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Reporter" Relationship="DBEntitiesModel.FK_Store_Reporter" FromRole="Store" ToRole="Reporter" />
+    <Property Name="CompanyTypeInt" Type="Int32" />
+    <NavigationProperty Name="Offers" Relationship="DBEntitiesModel.FK_Offer_Store" FromRole="Store" ToRole="Offer" />
+    <Property Name="BankID" Type="Int32" />
+    <Property Name="IBAN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bank" Relationship="DBEntitiesModel.FK_Store_Bank" FromRole="Store" ToRole="Bank" />
+    <Property Name="HasPublishedOffers" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Store_Reporter">
+    <End Type="DBEntitiesModel.Reporter" Role="Reporter" Multiplicity="1" />
+    <End Type="DBEntitiesModel.Store" Role="Store" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Reporter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Store">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Offer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="StoreID" Type="Int32" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="IsPublished" Type="Boolean" Nullable="false" />
+    <Property Name="OfferStatusInt" Type="Int32" Nullable="false" />
+    <Property Name="Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OfferUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Manufacturer" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ScreenSize" Type="Decimal" Precision="3" Scale="1" Nullable="false" />
+    <Property Name="ScreenResolutionX" Type="Int32" Nullable="false" />
+    <Property Name="ScreenResolutionY" Type="Int32" Nullable="false" />
+    <Property Name="RamSize" Type="Decimal" Precision="3" Scale="1" Nullable="false" />
+    <Property Name="StorageSize" Type="Int32" Nullable="false" />
+    <Property Name="OperatingSystem" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GuaranteeYears" Type="Int32" Nullable="false" />
+    <Property Name="OfficialSpecsUrl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="SubmittedAt" Type="DateTime" Precision="7" />
+    <Property Name="SubmittedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EvaluatedAt" Type="DateTime" Precision="7" />
+    <Property Name="EvaluatedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EvaluationComments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="CreatedAtDateOnly" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="7" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Store" Relationship="DBEntitiesModel.FK_Offer_Store" FromRole="Offer" ToRole="Store" />
+    <NavigationProperty Name="OfferLogs" Relationship="DBEntitiesModel.FK_OfferLog_Offer" FromRole="Offer" ToRole="OfferLog" />
+    <Property Name="Cpu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CpuSpeed" Type="Decimal" Precision="4" Scale="2" Nullable="false" />
+    <Property Name="UsbCount" Type="Int32" Nullable="false" />
+    <Property Name="HdmiCount" Type="Int32" Nullable="false" />
+    <Property Name="IsWiFi80211acCompliant" Type="Boolean" Nullable="false" />
+    <Property Name="ColorInt" Type="Int32" Nullable="false" />
+    <Property Name="IsLaptopCaseIncluded" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="OfferLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="OfferID" Type="Int32" Nullable="false" />
+    <Property Name="OldStatusInt" Type="Int32" Nullable="false" />
+    <Property Name="NewStatusInt" Type="Int32" Nullable="false" />
+    <Property Name="OldValuesXml" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NewValuesXml" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="7" />
+    <NavigationProperty Name="Offer" Relationship="DBEntitiesModel.FK_OfferLog_Offer" FromRole="OfferLog" ToRole="Offer" />
+  </EntityType>
+  <Association Name="FK_Offer_Store">
+    <End Type="DBEntitiesModel.Store" Role="Store" Multiplicity="1" />
+    <End Type="DBEntitiesModel.Offer" Role="Offer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Offer">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OfferLog_Offer">
+    <End Type="DBEntitiesModel.Offer" Role="Offer" Multiplicity="1" />
+    <End Type="DBEntitiesModel.OfferLog" Role="OfferLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Offer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OfferLog">
+        <PropertyRef Name="OfferID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="StoreOfferCounters">
+    <Property Type="Int32" Name="TotalCount" Nullable="true" />
+    <Property Type="Int32" Name="CreatedCount" Nullable="true" />
+    <Property Type="Int32" Name="SubmittedCount" Nullable="true" />
+    <Property Type="Int32" Name="ApprovedCount" Nullable="true" />
+    <Property Type="Int32" Name="AcceptedCount" Nullable="true" />
+    <Property Type="Int32" Name="PublishedCount" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Stores" Relationship="DBEntitiesModel.FK_Store_Bank" FromRole="Bank" ToRole="Store" />
+  </EntityType>
+  <Association Name="FK_Store_Bank">
+    <End Type="DBEntitiesModel.Bank" Role="Bank" Multiplicity="0..1" />
+    <End Type="DBEntitiesModel.Store" Role="Store" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bank">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Store">
+        <PropertyRef Name="BankID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
